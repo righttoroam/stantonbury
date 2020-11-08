@@ -1,0 +1,6 @@
+# ignore Debug directory wherever this may occure in the directory structure
+# Debug is the firmware build directory & will normally be located in 04_firmware/display7/Debug
+Debug/
+test.txt
+
+# end of file
