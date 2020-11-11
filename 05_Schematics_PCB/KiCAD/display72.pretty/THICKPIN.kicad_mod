@@ -1,0 +1,10 @@
+(module THICKPIN (layer F.Cu) (tedit 0)
+  (fp_text reference JP27 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value GND (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 3.81 3.81) (drill 1.9304) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.02))
+)

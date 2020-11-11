@@ -1,0 +1,3008 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 16890 10653
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Bus Line
+	2300 9200 7000 9200
+Wire Bus Line
+	7000 9200 7000 2400
+Text Label 2300 9200 0    70   ~ 0
+GPIOC[0..15]
+Wire Bus Line
+	2300 9400 7200 9400
+Wire Bus Line
+	7200 9400 7200 4000
+Text Label 7100 4000 0    70   ~ 0
+GPIOE[0..6]
+Wire Bus Line
+	2300 9600 7800 9600
+Wire Bus Line
+	7800 9600 7800 1500
+Text Label 2300 9600 0    70   ~ 0
+GPIOD[2..13]
+Wire Bus Line
+	2300 9800 7700 9800
+Wire Bus Line
+	7700 9800 7700 2500
+Text Label 2300 9800 0    70   ~ 0
+GPIOB[4..15]
+Wire Wire Line
+	10100 5000 10100 4800
+Text GLabel 10100 5000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	10100 2900 10100 2700
+Text GLabel 10100 2900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	9700 6800 9700 6400
+Text GLabel 9700 6800 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	10000 6800 10000 6600
+Text GLabel 10000 6800 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	5000 6800 5000 6600
+Text GLabel 5000 6800 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	10100 3900 10100 3700
+Text GLabel 10100 3900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	5800 4900 5800 4800
+Text GLabel 5800 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	6000 4900 6000 4800
+Text GLabel 6000 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	6200 4900 6200 4800
+Text GLabel 6200 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	2700 4900 2700 4800
+Text GLabel 2700 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	2900 4900 2900 4800
+Text GLabel 2900 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	3100 4900 3100 4800
+Text GLabel 3100 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	3300 4900 3300 4800
+Text GLabel 3300 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	3500 4900 3500 4800
+Text GLabel 3500 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	3700 4900 3700 4800
+Text GLabel 3700 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	6400 4900 6400 4800
+Text GLabel 6400 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	3900 3300 3900 3200
+Text GLabel 3900 3300 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4100 3300 4100 3200
+Text GLabel 4100 3300 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4300 3300 4300 3200
+Text GLabel 4300 3300 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4500 3300 4500 3200
+Text GLabel 4500 3300 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4500 4900 4500 4800
+Text GLabel 4500 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4700 4900 4700 4800
+Text GLabel 4700 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	4900 4900 4900 4800
+Text GLabel 4900 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	5100 4900 5100 4800
+Text GLabel 5100 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	5300 4900 5300 4800
+Text GLabel 5300 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	5500 4900 5500 4800
+Text GLabel 5500 4900 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	1500 3800 1200 3800
+Wire Wire Line
+	1200 3800 1200 3900
+Wire Wire Line
+	1200 3900 1200 4000
+Wire Wire Line
+	1200 4000 1200 4100
+Wire Wire Line
+	1200 4100 1200 4200
+Wire Wire Line
+	1200 4200 1200 4300
+Wire Wire Line
+	1200 4300 1200 4900
+Wire Wire Line
+	1500 3900 1200 3900
+Wire Wire Line
+	1500 4000 1200 4000
+Wire Wire Line
+	1500 4100 1200 4100
+Wire Wire Line
+	1500 4200 1200 4200
+Wire Wire Line
+	1500 4300 1200 4300
+Wire Wire Line
+	1500 2500 1200 2500
+Wire Wire Line
+	1200 2500 1200 2600
+Wire Wire Line
+	1200 2600 1200 2700
+Wire Wire Line
+	1200 2700 1200 2800
+Wire Wire Line
+	1200 2800 1200 3800
+Wire Wire Line
+	1500 2600 1200 2600
+Wire Wire Line
+	1500 2700 1200 2700
+Wire Wire Line
+	1500 2800 1200 2800
+Connection ~ 1200 3900
+Connection ~ 1200 4000
+Connection ~ 1200 4100
+Connection ~ 1200 4200
+Connection ~ 1200 4300
+Connection ~ 1200 2600
+Connection ~ 1200 2700
+Connection ~ 1200 2800
+Connection ~ 1200 3800
+Text GLabel 1500 3800 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	15500 4800 15900 4800
+Wire Wire Line
+	15900 4800 15900 4900
+Wire Wire Line
+	15900 4900 15900 5000
+Wire Wire Line
+	15900 5000 15900 5100
+Wire Wire Line
+	15900 5100 15900 5200
+Wire Wire Line
+	15900 5200 15900 5300
+Wire Wire Line
+	15900 5300 15900 5400
+Wire Wire Line
+	15900 5400 15900 5700
+Wire Wire Line
+	15500 4900 15900 4900
+Wire Wire Line
+	15500 5000 15900 5000
+Wire Wire Line
+	15500 5100 15900 5100
+Wire Wire Line
+	15500 5200 15900 5200
+Wire Wire Line
+	15500 5300 15900 5300
+Wire Wire Line
+	15500 5400 15900 5400
+Connection ~ 15900 5400
+Connection ~ 15900 5300
+Connection ~ 15900 5200
+Connection ~ 15900 5100
+Connection ~ 15900 5000
+Connection ~ 15900 4900
+Text GLabel 15500 4800 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	13400 6000 13400 5900
+Text GLabel 13400 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	13600 6000 13600 5900
+Text GLabel 13600 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	13800 6000 13800 5900
+Text GLabel 13800 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	14000 6000 14000 5900
+Text GLabel 14000 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	14200 6000 14200 5900
+Text GLabel 14200 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	14400 6000 14400 5900
+Text GLabel 14400 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	13200 6000 13200 5900
+Text GLabel 13200 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	11500 6000 11500 5900
+Text GLabel 11500 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	11700 6000 11700 5900
+Text GLabel 11700 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	11900 6000 11900 5900
+Text GLabel 11900 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	12100 6000 12100 5900
+Text GLabel 12100 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	12300 6000 12300 5900
+Text GLabel 12300 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	12500 6000 12500 5900
+Text GLabel 12500 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	11300 6000 11300 5900
+Text GLabel 11300 6000 0    10   BiDi ~ 0
+AGND
+Wire Wire Line
+	9700 5500 9700 5400
+Wire Wire Line
+	9700 5400 9400 5400
+Wire Wire Line
+	10000 5600 10000 5400
+Wire Wire Line
+	10000 5400 9700 5400
+Wire Wire Line
+	10300 5700 10300 5400
+Wire Wire Line
+	10300 5400 10000 5400
+Connection ~ 9700 5400
+Connection ~ 10000 5400
+Text GLabel 9700 5500 0    10   BiDi ~ 0
+VCC
+Wire Wire Line
+	5700 5500 6000 5500
+Text GLabel 5700 5500 0    10   BiDi ~ 0
+VCC
+Wire Wire Line
+	9500 4600 9300 4600
+Wire Wire Line
+	9800 4600 9500 4600
+Connection ~ 9500 4600
+Wire Wire Line
+	10100 4400 10100 4300
+Wire Wire Line
+	10100 4300 10900 4300
+Wire Wire Line
+	10900 4300 10900 5100
+Wire Wire Line
+	12600 5100 11900 5100
+Wire Wire Line
+	11900 5100 11900 5600
+Wire Wire Line
+	10900 5100 11900 5100
+Connection ~ 11900 5100
+Wire Wire Line
+	9500 2500 9300 2500
+Wire Wire Line
+	9800 2500 9500 2500
+Wire Wire Line
+	9900 2600 9800 2600
+Wire Wire Line
+	9800 2600 9800 2500
+Connection ~ 9500 2500
+Wire Wire Line
+	10100 2300 10100 2200
+Wire Wire Line
+	9900 2200 10100 2200
+Wire Wire Line
+	10100 2200 11100 2200
+Wire Wire Line
+	11100 2200 11100 4900
+Wire Wire Line
+	12600 4900 11500 4900
+Wire Wire Line
+	11500 4900 11500 5600
+Wire Wire Line
+	11100 4900 11500 4900
+Connection ~ 10100 2200
+Connection ~ 11500 4900
+Wire Wire Line
+	10000 7400 10000 7600
+Wire Wire Line
+	9700 7400 10000 7400
+Wire Wire Line
+	10000 7400 11000 7400
+Wire Wire Line
+	11000 7400 11000 5300
+Wire Wire Line
+	12600 5300 12300 5300
+Wire Wire Line
+	12300 5300 12300 5600
+Wire Wire Line
+	11000 5300 12300 5300
+Connection ~ 10000 7400
+Connection ~ 12300 5300
+Wire Wire Line
+	9500 7900 9300 7900
+Wire Wire Line
+	9800 7900 9500 7900
+Connection ~ 9500 7900
+Wire Wire Line
+	9300 7400 9500 7400
+Text GLabel 9300 7400 0    10   BiDi ~ 0
+PLUSZWOELF
+Wire Wire Line
+	9300 8700 9500 8700
+Text GLabel 9300 8700 0    10   BiDi ~ 0
+PLUSZWOELF
+Wire Wire Line
+	9500 2200 9700 2200
+Text GLabel 9500 2200 0    10   BiDi ~ 0
+PLUSZWOELF
+Wire Wire Line
+	9500 3200 9700 3200
+Text GLabel 9500 3200 0    10   BiDi ~ 0
+PLUSZWOELF
+Wire Wire Line
+	10100 900  10100 1000
+Text GLabel 10100 900  0    10   BiDi ~ 0
+PLUSZWOELF
+Wire Wire Line
+	10000 8700 10000 8900
+Wire Wire Line
+	9700 8700 10000 8700
+Wire Wire Line
+	10000 8700 11100 8700
+Wire Wire Line
+	11100 8700 11100 5400
+Wire Wire Line
+	12600 5400 12500 5400
+Wire Wire Line
+	12500 5400 12500 5600
+Wire Wire Line
+	11100 5400 12500 5400
+Connection ~ 10000 8700
+Connection ~ 12500 5400
+Wire Wire Line
+	9500 9200 9300 9200
+Wire Wire Line
+	9800 9200 9500 9200
+Connection ~ 9500 9200
+Wire Wire Line
+	10900 6200 10900 5200
+Wire Wire Line
+	12600 5200 12100 5200
+Wire Wire Line
+	12100 5200 12100 5600
+Wire Wire Line
+	10900 5200 12100 5200
+Wire Wire Line
+	10900 6200 10400 6200
+Connection ~ 12100 5200
+Wire Wire Line
+	10000 6000 10000 6200
+Wire Wire Line
+	10000 6400 10000 6200
+Wire Wire Line
+	10300 5900 10300 6000
+Wire Wire Line
+	10300 6000 10000 6000
+Connection ~ 10000 6200
+Connection ~ 10000 6000
+Wire Wire Line
+	5600 6400 5800 6400
+Wire Wire Line
+	5300 6400 5600 6400
+Connection ~ 5600 6400
+Wire Wire Line
+	5000 6200 5000 6000
+Wire Wire Line
+	5000 6000 4400 6000
+Wire Wire Line
+	5000 6000 5000 5900
+Connection ~ 5000 6000
+Wire Wire Line
+	3600 6400 3500 6400
+Text GLabel 3500 6400 2    70   BiDi ~ 0
+LDCLIGHT
+Wire Wire Line
+	5200 2700 6000 2700
+Wire Wire Line
+	6000 2700 6900 2700
+Wire Wire Line
+	6000 4500 6000 2700
+Wire Wire Line
+	6000 1600 6000 2700
+Text GLabel 6900 2700 2    70   BiDi ~ 0
+GPIOC4
+Connection ~ 6000 2700
+Wire Wire Line
+	5200 2800 6200 2800
+Wire Wire Line
+	6200 2800 6900 2800
+Wire Wire Line
+	6200 4500 6200 2800
+Wire Wire Line
+	6200 1600 6200 2800
+Text GLabel 6900 2800 2    70   BiDi ~ 0
+GPIOC5
+Connection ~ 6200 2800
+Wire Wire Line
+	6900 3800 4500 3800
+Wire Wire Line
+	4500 3800 4300 3800
+Wire Wire Line
+	4500 4500 4500 3800
+Text GLabel 6900 3800 2    70   BiDi ~ 0
+GPIOC14
+Connection ~ 4500 3800
+Wire Wire Line
+	6900 3900 4700 3900
+Wire Wire Line
+	4700 3900 4300 3900
+Wire Wire Line
+	4700 4500 4700 3900
+Text GLabel 6900 3900 2    70   BiDi ~ 0
+GPIOC15
+Connection ~ 4700 3900
+Wire Wire Line
+	6200 6400 7100 6400
+Text GLabel 7100 6400 2    70   BiDi ~ 0
+GPIOE1
+Wire Wire Line
+	9700 5900 9700 6000
+Wire Wire Line
+	9700 6000 7300 6000
+Connection ~ 9700 6000
+Text GLabel 7300 6000 0    70   BiDi ~ 0
+GPIOE2
+Wire Wire Line
+	7300 9200 8900 9200
+Text GLabel 7300 9200 2    70   BiDi ~ 0
+GPIOE3
+Wire Wire Line
+	8900 7900 7300 7900
+Text GLabel 7300 7900 2    70   BiDi ~ 0
+GPIOE4
+Wire Wire Line
+	7300 4600 8900 4600
+Text GLabel 7300 4600 2    70   BiDi ~ 0
+GPIOE6
+Wire Wire Line
+	7900 1500 8900 1500
+Text GLabel 7900 1500 2    70   BiDi ~ 0
+GPIOD2
+Wire Wire Line
+	9500 3500 9300 3500
+Wire Wire Line
+	9800 3500 9500 3500
+Wire Wire Line
+	9900 3600 9800 3600
+Wire Wire Line
+	9800 3600 9800 3500
+Connection ~ 9500 3500
+Wire Wire Line
+	10100 3300 10100 3200
+Wire Wire Line
+	9900 3200 10100 3200
+Wire Wire Line
+	10100 3200 11000 3200
+Wire Wire Line
+	11000 3200 11000 5000
+Wire Wire Line
+	12600 5000 11700 5000
+Wire Wire Line
+	11700 5000 11700 5600
+Wire Wire Line
+	11000 5000 11700 5000
+Connection ~ 10100 3200
+Connection ~ 11700 5000
+Wire Wire Line
+	7900 3500 8900 3500
+Text GLabel 7900 3500 2    70   BiDi ~ 0
+GPIOD13
+Wire Wire Line
+	7100 4000 4900 4000
+Wire Wire Line
+	4900 4000 4300 4000
+Wire Wire Line
+	4900 4500 4900 4000
+Text GLabel 7100 4000 2    70   BiDi ~ 0
+GPIOE0
+Connection ~ 4900 4000
+Wire Wire Line
+	7800 2500 8900 2500
+Text GLabel 7800 2500 2    70   BiDi ~ 0
+GPIOB6
+Wire Wire Line
+	4300 4100 5100 4100
+Wire Wire Line
+	5100 4100 7600 4100
+Wire Wire Line
+	5100 4500 5100 4100
+Text GLabel 7600 4100 2    70   BiDi ~ 0
+GPIOB7
+Connection ~ 5100 4100
+Wire Wire Line
+	4300 4200 5300 4200
+Wire Wire Line
+	5300 4200 7600 4200
+Wire Wire Line
+	5300 4500 5300 4200
+Text GLabel 7600 4200 2    70   BiDi ~ 0
+GPIOB9
+Connection ~ 5300 4200
+Wire Wire Line
+	4300 4300 5500 4300
+Wire Wire Line
+	5500 4300 7600 4300
+Wire Wire Line
+	5500 4500 5500 4300
+Text GLabel 7600 4300 2    70   BiDi ~ 0
+GPIOB12
+Connection ~ 5500 4300
+Wire Wire Line
+	4000 6400 4200 6400
+Wire Wire Line
+	4200 6400 4200 6300
+Wire Wire Line
+	1800 2600 2900 2600
+Wire Wire Line
+	1800 2700 2900 2700
+Wire Wire Line
+	1800 2800 2900 2800
+Wire Wire Line
+	3900 3800 2700 3800
+Wire Wire Line
+	2700 3800 2600 3800
+Wire Wire Line
+	2700 4500 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	2600 4300 3700 4300
+Wire Wire Line
+	3700 4300 3900 4300
+Wire Wire Line
+	3700 4500 3700 4300
+Connection ~ 3700 4300
+Wire Wire Line
+	2600 4200 3500 4200
+Wire Wire Line
+	3500 4200 3900 4200
+Wire Wire Line
+	3500 4500 3500 4200
+Connection ~ 3500 4200
+Wire Wire Line
+	2600 4100 3300 4100
+Wire Wire Line
+	3300 4100 3900 4100
+Wire Wire Line
+	3300 4500 3300 4100
+Connection ~ 3300 4100
+Wire Wire Line
+	3900 4000 3100 4000
+Wire Wire Line
+	3100 4000 2600 4000
+Wire Wire Line
+	3100 4500 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3900 3900 2900 3900
+Wire Wire Line
+	2900 3900 2600 3900
+Wire Wire Line
+	2900 4500 2900 3900
+Connection ~ 2900 3900
+Wire Wire Line
+	4200 5500 4200 5900
+Wire Wire Line
+	4200 5500 5000 5500
+Wire Wire Line
+	5000 5500 5300 5500
+Connection ~ 5000 5500
+Wire Wire Line
+	2900 2500 1800 2500
+Wire Wire Line
+	5200 2500 6400 2500
+Wire Wire Line
+	6400 2500 6900 2500
+Wire Wire Line
+	6400 4500 6400 2500
+Wire Wire Line
+	6400 1600 6400 2500
+Text GLabel 6900 2500 2    70   BiDi ~ 0
+GPIOC13
+Connection ~ 6400 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	5200 2600 5800 2600
+Wire Wire Line
+	5800 4500 5800 2600
+Wire Wire Line
+	7600 2600 5800 2600
+Wire Wire Line
+	5800 1600 5800 2600
+Connection ~ 5800 2600
+Text GLabel 7600 2600 2    70   BiDi ~ 0
+GPIOB8
+Wire Wire Line
+	2200 3800 1800 3800
+Wire Wire Line
+	2200 3900 1800 3900
+Wire Wire Line
+	2200 4000 1800 4000
+Wire Wire Line
+	1800 4100 2200 4100
+Wire Wire Line
+	1800 4200 2200 4200
+Wire Wire Line
+	1800 4300 2200 4300
+Wire Wire Line
+	9900 1800 9800 1800
+Wire Wire Line
+	9800 1800 9800 1700
+Wire Wire Line
+	9500 1500 9300 1500
+Wire Wire Line
+	9800 1700 9800 1500
+Wire Wire Line
+	9800 1500 9500 1500
+Connection ~ 9500 1500
+Wire Wire Line
+	10100 1500 10100 1400
+Wire Wire Line
+	10100 1200 10100 1400
+Wire Wire Line
+	10100 1400 11200 1400
+Wire Wire Line
+	11200 1400 11200 4800
+Wire Wire Line
+	12600 4800 11300 4800
+Wire Wire Line
+	11300 4800 11300 5600
+Wire Wire Line
+	11200 4800 11300 4800
+Connection ~ 10100 1400
+Connection ~ 11300 4800
+Wire Wire Line
+	4800 2500 3900 2500
+Wire Wire Line
+	3900 2500 3100 2500
+Wire Wire Line
+	3900 2900 3900 2500
+Connection ~ 3900 2500
+Wire Wire Line
+	3100 2600 4100 2600
+Wire Wire Line
+	4100 2600 4800 2600
+Wire Wire Line
+	4100 2900 4100 2600
+Connection ~ 4100 2600
+Wire Wire Line
+	3100 2700 4300 2700
+Wire Wire Line
+	4300 2700 4800 2700
+Wire Wire Line
+	4300 2900 4300 2700
+Connection ~ 4300 2700
+Wire Wire Line
+	3100 2800 4500 2800
+Wire Wire Line
+	4500 2800 4800 2800
+Wire Wire Line
+	4500 2900 4500 2800
+Connection ~ 4500 2800
+Wire Wire Line
+	13000 4800 13200 4800
+Wire Wire Line
+	13200 4800 15200 4800
+Wire Wire Line
+	13200 5600 13200 4800
+Connection ~ 13200 4800
+Wire Wire Line
+	15200 4900 13400 4900
+Wire Wire Line
+	13400 4900 13000 4900
+Wire Wire Line
+	13400 5600 13400 4900
+Connection ~ 13400 4900
+Wire Wire Line
+	13000 5000 13600 5000
+Wire Wire Line
+	13600 5000 15200 5000
+Wire Wire Line
+	13600 5600 13600 5000
+Connection ~ 13600 5000
+Wire Wire Line
+	15200 5100 13800 5100
+Wire Wire Line
+	13800 5100 13000 5100
+Wire Wire Line
+	13800 5600 13800 5100
+Connection ~ 13800 5100
+Wire Wire Line
+	13000 5200 14000 5200
+Wire Wire Line
+	14000 5200 15200 5200
+Wire Wire Line
+	14000 5600 14000 5200
+Connection ~ 14000 5200
+Wire Wire Line
+	15200 5300 14200 5300
+Wire Wire Line
+	14200 5300 13000 5300
+Wire Wire Line
+	14200 5600 14200 5300
+Connection ~ 14200 5300
+Wire Wire Line
+	13000 5400 14400 5400
+Wire Wire Line
+	14400 5400 15200 5400
+Wire Wire Line
+	14400 5600 14400 5400
+Connection ~ 14400 5400
+Entry Wire Line
+	6900 2700 7000 2800
+Entry Wire Line
+	6900 2800 7000 2900
+Entry Wire Line
+	6900 3800 7000 3700
+Entry Wire Line
+	6900 3900 7000 3800
+Entry Wire Line
+	6900 2500 7000 2600
+Entry Wire Line
+	7100 6400 7200 6500
+Entry Wire Line
+	7200 5900 7300 6000
+Entry Wire Line
+	7200 9100 7300 9200
+Entry Wire Line
+	7200 7800 7300 7900
+Entry Wire Line
+	7200 4500 7300 4600
+Entry Wire Line
+	7100 4000 7200 4100
+Entry Wire Line
+	7800 1600 7900 1500
+Entry Wire Line
+	7800 3400 7900 3500
+Entry Wire Line
+	7700 2600 7800 2500
+Entry Wire Line
+	7600 4100 7700 4200
+Entry Wire Line
+	7600 4200 7700 4300
+Entry Wire Line
+	7600 4300 7700 4400
+Entry Wire Line
+	7600 2600 7700 2500
+$Comp
+L display72-eagle-import:R-EU_R0603 R56
+U 1 1 1B2B6E1A
+P 9500 4800
+AR Path="/1B2B6E1A" Ref="R56"  Part="1" 
+AR Path="/5FABF5AF/1B2B6E1A" Ref="R56"  Part="1" 
+F 0 "R56" H 9450 4859 59  0000 L BNN
+F 1 "100k" H 9400 4670 59  0000 L BNN
+F 2 "display72:R0603" H 9500 4800 50  0001 C CNN
+F 3 "" H 9500 4800 50  0001 C CNN
+	1    9500 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND40
+U 1 1 4A5C1A66
+P 9500 5100
+AR Path="/4A5C1A66" Ref="#AGND40"  Part="1" 
+AR Path="/5FABF5AF/4A5C1A66" Ref="#AGND040"  Part="1" 
+F 0 "#AGND040" H 9500 5100 50  0001 C CNN
+F 1 " " V 9400 4900 59  0000 L BNN
+F 2 "" H 9500 5100 50  0001 C CNN
+F 3 "" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R48
+U 1 1 6E0C9EC0
+P 9100 4600
+AR Path="/6E0C9EC0" Ref="R48"  Part="1" 
+AR Path="/5FABF5AF/6E0C9EC0" Ref="R48"  Part="1" 
+F 0 "R48" H 9050 4659 59  0000 L BNN
+F 1 "1k" H 9000 4470 59  0000 L BNN
+F 2 "display72:R0603" H 9100 4600 50  0001 C CNN
+F 3 "" H 9100 4600 50  0001 C CNN
+	1    9100 4600
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:BS170_SMD Q10
+U 1 1 D49D229C
+P 10000 4600
+AR Path="/D49D229C" Ref="Q10"  Part="1" 
+AR Path="/5FABF5AF/D49D229C" Ref="Q10"  Part="1" 
+F 0 "Q10" H 10150 4625 59  0000 L BNN
+F 1 "N-CH_MOSFET" V 10400 4225 59  0000 L BNN
+F 2 "display72:SOT23" H 10000 4600 50  0001 C CNN
+F 3 "" H 10000 4600 50  0001 C CNN
+	1    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND50
+U 1 1 29D896C7
+P 10100 5100
+AR Path="/29D896C7" Ref="#AGND50"  Part="1" 
+AR Path="/5FABF5AF/29D896C7" Ref="#AGND050"  Part="1" 
+F 0 "#AGND050" H 10100 5100 50  0001 C CNN
+F 1 " " V 10000 4900 59  0000 L BNN
+F 2 "" H 10100 5100 50  0001 C CNN
+F 3 "" H 10100 5100 50  0001 C CNN
+	1    10100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R54
+U 1 1 599A0D31
+P 9500 2700
+AR Path="/599A0D31" Ref="R54"  Part="1" 
+AR Path="/5FABF5AF/599A0D31" Ref="R54"  Part="1" 
+F 0 "R54" H 9450 2759 59  0000 L BNN
+F 1 "100k" H 9400 2570 59  0000 L BNN
+F 2 "display72:R0603" H 9500 2700 50  0001 C CNN
+F 3 "" H 9500 2700 50  0001 C CNN
+	1    9500 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND38
+U 1 1 465B3328
+P 9500 3000
+AR Path="/465B3328" Ref="#AGND38"  Part="1" 
+AR Path="/5FABF5AF/465B3328" Ref="#AGND038"  Part="1" 
+F 0 "#AGND038" H 9500 3000 50  0001 C CNN
+F 1 " " V 9400 2800 59  0000 L BNN
+F 2 "" H 9500 3000 50  0001 C CNN
+F 3 "" H 9500 3000 50  0001 C CNN
+	1    9500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R46
+U 1 1 A9545C97
+P 9100 2500
+AR Path="/A9545C97" Ref="R46"  Part="1" 
+AR Path="/5FABF5AF/A9545C97" Ref="R46"  Part="1" 
+F 0 "R46" H 9050 2559 59  0000 L BNN
+F 1 "1k" H 9000 2370 59  0000 L BNN
+F 2 "display72:R0603" H 9100 2500 50  0001 C CNN
+F 3 "" H 9100 2500 50  0001 C CNN
+	1    9100 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND48
+U 1 1 A93492F7
+P 10100 3000
+AR Path="/A93492F7" Ref="#AGND48"  Part="1" 
+AR Path="/5FABF5AF/A93492F7" Ref="#AGND048"  Part="1" 
+F 0 "#AGND048" H 10100 3000 50  0001 C CNN
+F 1 " " V 10000 2800 59  0000 L BNN
+F 2 "" H 10100 3000 50  0001 C CNN
+F 3 "" H 10100 3000 50  0001 C CNN
+	1    10100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R30
+U 1 1 AF927572
+P 5800 1400
+AR Path="/AF927572" Ref="R30"  Part="1" 
+AR Path="/5FABF5AF/AF927572" Ref="R30"  Part="1" 
+F 0 "R30" H 5837 1446 59  0000 L BNN
+F 1 "10k" H 5650 1445 59  0000 L BNN
+F 2 "display72:R0603" H 5800 1400 50  0001 C CNN
+F 3 "" H 5800 1400 50  0001 C CNN
+	1    5800 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+6
+U 1 1 4B6CF0C8
+P 5800 1100
+AR Path="/4B6CF0C8" Ref="#P+6"  Part="1" 
+AR Path="/5FABF5AF/4B6CF0C8" Ref="#P+06"  Part="1" 
+F 0 "#P+06" H 5800 1100 50  0001 C CNN
+F 1 "VCC" V 5700 1000 59  0000 L BNN
+F 2 "" H 5800 1100 50  0001 C CNN
+F 3 "" H 5800 1100 50  0001 C CNN
+	1    5800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R31
+U 1 1 941D0DBE
+P 6000 1400
+AR Path="/941D0DBE" Ref="R31"  Part="1" 
+AR Path="/5FABF5AF/941D0DBE" Ref="R31"  Part="1" 
+F 0 "R31" H 6037 1446 59  0000 L BNN
+F 1 "10k" H 5850 1445 59  0000 L BNN
+F 2 "display72:R0603" H 6000 1400 50  0001 C CNN
+F 3 "" H 6000 1400 50  0001 C CNN
+	1    6000 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+7
+U 1 1 FAFE20BD
+P 6000 1100
+AR Path="/FAFE20BD" Ref="#P+7"  Part="1" 
+AR Path="/5FABF5AF/FAFE20BD" Ref="#P+07"  Part="1" 
+F 0 "#P+07" H 6000 1100 50  0001 C CNN
+F 1 "VCC" V 5900 1000 59  0000 L BNN
+F 2 "" H 6000 1100 50  0001 C CNN
+F 3 "" H 6000 1100 50  0001 C CNN
+	1    6000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R34
+U 1 1 B966ED6F
+P 6200 1400
+AR Path="/B966ED6F" Ref="R34"  Part="1" 
+AR Path="/5FABF5AF/B966ED6F" Ref="R34"  Part="1" 
+F 0 "R34" H 6237 1446 59  0000 L BNN
+F 1 "10k" H 6050 1445 59  0000 L BNN
+F 2 "display72:R0603" H 6200 1400 50  0001 C CNN
+F 3 "" H 6200 1400 50  0001 C CNN
+	1    6200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+8
+U 1 1 E32DC4A8
+P 6200 1100
+AR Path="/E32DC4A8" Ref="#P+8"  Part="1" 
+AR Path="/5FABF5AF/E32DC4A8" Ref="#P+08"  Part="1" 
+F 0 "#P+08" H 6200 1100 50  0001 C CNN
+F 1 "VCC" V 6100 1000 59  0000 L BNN
+F 2 "" H 6200 1100 50  0001 C CNN
+F 3 "" H 6200 1100 50  0001 C CNN
+	1    6200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R53
+U 1 1 71A39E79
+P 9500 1700
+AR Path="/71A39E79" Ref="R53"  Part="1" 
+AR Path="/5FABF5AF/71A39E79" Ref="R53"  Part="1" 
+F 0 "R53" H 9450 1759 59  0000 L BNN
+F 1 "100k" H 9400 1570 59  0000 L BNN
+F 2 "display72:R0603" H 9500 1700 50  0001 C CNN
+F 3 "" H 9500 1700 50  0001 C CNN
+	1    9500 1700
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND37
+U 1 1 F2171A05
+P 9500 2000
+AR Path="/F2171A05" Ref="#AGND37"  Part="1" 
+AR Path="/5FABF5AF/F2171A05" Ref="#AGND037"  Part="1" 
+F 0 "#AGND037" H 9500 2000 50  0001 C CNN
+F 1 " " V 9400 1800 59  0000 L BNN
+F 2 "" H 9500 2000 50  0001 C CNN
+F 3 "" H 9500 2000 50  0001 C CNN
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R45
+U 1 1 4ECB9CAA
+P 9100 1500
+AR Path="/4ECB9CAA" Ref="R45"  Part="1" 
+AR Path="/5FABF5AF/4ECB9CAA" Ref="R45"  Part="1" 
+F 0 "R45" H 9050 1559 59  0000 L BNN
+F 1 "1k" H 9000 1370 59  0000 L BNN
+F 2 "display72:R0603" H 9100 1500 50  0001 C CNN
+F 3 "" H 9100 1500 50  0001 C CNN
+	1    9100 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND47
+U 1 1 3F6B237B
+P 10100 2000
+AR Path="/3F6B237B" Ref="#AGND47"  Part="1" 
+AR Path="/5FABF5AF/3F6B237B" Ref="#AGND047"  Part="1" 
+F 0 "#AGND047" H 10100 2000 50  0001 C CNN
+F 1 " " V 10000 1800 59  0000 L BNN
+F 2 "" H 10100 2000 50  0001 C CNN
+F 3 "" H 10100 2000 50  0001 C CNN
+	1    10100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:IRF3704S Q5
+U 1 1 A335FF6A
+P 9900 7800
+AR Path="/A335FF6A" Ref="Q5"  Part="1" 
+AR Path="/5FABF5AF/A335FF6A" Ref="Q5"  Part="1" 
+F 0 "Q5" H 10150 7900 59  0000 L BNN
+F 1 "IRF3704S" H 10150 7800 59  0000 L BNN
+F 2 "display72:D2PACK" H 9900 7800 50  0001 C CNN
+F 3 "" H 9900 7800 50  0001 C CNN
+	1    9900 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND45
+U 1 1 B3CBF544
+P 10000 8100
+AR Path="/B3CBF544" Ref="#AGND45"  Part="1" 
+AR Path="/5FABF5AF/B3CBF544" Ref="#AGND045"  Part="1" 
+F 0 "#AGND045" H 10000 8100 50  0001 C CNN
+F 1 " " V 9900 7900 59  0000 L BNN
+F 2 "" H 10000 8100 50  0001 C CNN
+F 3 "" H 10000 8100 50  0001 C CNN
+	1    10000 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R58
+U 1 1 B25FF048
+P 9500 8100
+AR Path="/B25FF048" Ref="R58"  Part="1" 
+AR Path="/5FABF5AF/B25FF048" Ref="R58"  Part="1" 
+F 0 "R58" H 9450 8159 59  0000 L BNN
+F 1 "100k" H 9400 7970 59  0000 L BNN
+F 2 "display72:R0603" H 9500 8100 50  0001 C CNN
+F 3 "" H 9500 8100 50  0001 C CNN
+	1    9500 8100
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND42
+U 1 1 BC683AA4
+P 9500 8400
+AR Path="/BC683AA4" Ref="#AGND42"  Part="1" 
+AR Path="/5FABF5AF/BC683AA4" Ref="#AGND042"  Part="1" 
+F 0 "#AGND042" H 9500 8400 50  0001 C CNN
+F 1 " " V 9400 8200 59  0000 L BNN
+F 2 "" H 9500 8400 50  0001 C CNN
+F 3 "" H 9500 8400 50  0001 C CNN
+	1    9500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R49
+U 1 1 CE65AA75
+P 9100 7900
+AR Path="/CE65AA75" Ref="R49"  Part="1" 
+AR Path="/5FABF5AF/CE65AA75" Ref="R49"  Part="1" 
+F 0 "R49" H 9050 7959 59  0000 L BNN
+F 1 "1k" H 9000 7770 59  0000 L BNN
+F 2 "display72:R0603" H 9100 7900 50  0001 C CNN
+F 3 "" H 9100 7900 50  0001 C CNN
+	1    9100 7900
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE_GROSSSMD D9
+U 1 1 AE39094F
+P 9600 7400
+AR Path="/AE39094F" Ref="D9"  Part="1" 
+AR Path="/5FABF5AF/AE39094F" Ref="D9"  Part="1" 
+F 0 "D9" H 9559 7504 59  0000 L BNN
+F 1 "SS110B" H 9349 7223 59  0000 L BNN
+F 2 "display72:MELF" H 9600 7400 50  0001 C CNN
+F 3 "" H 9600 7400 50  0001 C CNN
+	1    9600 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:+12V #P+14
+U 1 1 C5FBB535
+P 9200 7400
+AR Path="/C5FBB535" Ref="#P+14"  Part="1" 
+AR Path="/5FABF5AF/C5FBB535" Ref="#P+014"  Part="1" 
+F 0 "#P+014" H 9200 7400 50  0001 C CNN
+F 1 "+12V" V 9100 7200 59  0001 L BNN
+F 2 "" H 9200 7400 50  0001 C CNN
+F 3 "" H 9200 7400 50  0001 C CNN
+	1    9200 7400
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:IRF3704S Q6
+U 1 1 97620144
+P 9900 9100
+AR Path="/97620144" Ref="Q6"  Part="1" 
+AR Path="/5FABF5AF/97620144" Ref="Q6"  Part="1" 
+F 0 "Q6" H 10150 9200 59  0000 L BNN
+F 1 "IRF3704S" H 10150 9100 59  0000 L BNN
+F 2 "display72:D2PACK" H 9900 9100 50  0001 C CNN
+F 3 "" H 9900 9100 50  0001 C CNN
+	1    9900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND46
+U 1 1 8CCC0B43
+P 10000 9400
+AR Path="/8CCC0B43" Ref="#AGND46"  Part="1" 
+AR Path="/5FABF5AF/8CCC0B43" Ref="#AGND046"  Part="1" 
+F 0 "#AGND046" H 10000 9400 50  0001 C CNN
+F 1 " " V 9900 9200 59  0000 L BNN
+F 2 "" H 10000 9400 50  0001 C CNN
+F 3 "" H 10000 9400 50  0001 C CNN
+	1    10000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R59
+U 1 1 083E1171
+P 9500 9400
+AR Path="/083E1171" Ref="R59"  Part="1" 
+AR Path="/5FABF5AF/083E1171" Ref="R59"  Part="1" 
+F 0 "R59" H 9450 9459 59  0000 L BNN
+F 1 "100k" H 9400 9270 59  0000 L BNN
+F 2 "display72:R0603" H 9500 9400 50  0001 C CNN
+F 3 "" H 9500 9400 50  0001 C CNN
+	1    9500 9400
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND43
+U 1 1 E65ABE05
+P 9500 9700
+AR Path="/E65ABE05" Ref="#AGND43"  Part="1" 
+AR Path="/5FABF5AF/E65ABE05" Ref="#AGND043"  Part="1" 
+F 0 "#AGND043" H 9500 9700 50  0001 C CNN
+F 1 " " V 9400 9500 59  0000 L BNN
+F 2 "" H 9500 9700 50  0001 C CNN
+F 3 "" H 9500 9700 50  0001 C CNN
+	1    9500 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R50
+U 1 1 61DBE7F5
+P 9100 9200
+AR Path="/61DBE7F5" Ref="R50"  Part="1" 
+AR Path="/5FABF5AF/61DBE7F5" Ref="R50"  Part="1" 
+F 0 "R50" H 9050 9259 59  0000 L BNN
+F 1 "1k" H 9000 9070 59  0000 L BNN
+F 2 "display72:R0603" H 9100 9200 50  0001 C CNN
+F 3 "" H 9100 9200 50  0001 C CNN
+	1    9100 9200
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE_GROSSSMD D10
+U 1 1 E4A48164
+P 9600 8700
+AR Path="/E4A48164" Ref="D10"  Part="1" 
+AR Path="/5FABF5AF/E4A48164" Ref="D10"  Part="1" 
+F 0 "D10" H 9559 8804 59  0000 L BNN
+F 1 "SS110B" H 9349 8523 59  0000 L BNN
+F 2 "display72:MELF" H 9600 8700 50  0001 C CNN
+F 3 "" H 9600 8700 50  0001 C CNN
+	1    9600 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:+12V #P+15
+U 1 1 836A5F30
+P 9200 8700
+AR Path="/836A5F30" Ref="#P+15"  Part="1" 
+AR Path="/5FABF5AF/836A5F30" Ref="#P+015"  Part="1" 
+F 0 "#P+015" H 9200 8700 50  0001 C CNN
+F 1 "+12V" V 9100 8500 59  0001 L BNN
+F 2 "" H 9200 8700 50  0001 C CNN
+F 3 "" H 9200 8700 50  0001 C CNN
+	1    9200 8700
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R33
+U 1 1 D10C6935
+P 10200 6200
+AR Path="/D10C6935" Ref="R33"  Part="1" 
+AR Path="/5FABF5AF/D10C6935" Ref="R33"  Part="1" 
+F 0 "R33" H 10150 6259 59  0000 L BNN
+F 1 "1k" H 10100 6070 59  0000 L BNN
+F 2 "display72:R0603" H 10200 6200 50  0001 C CNN
+F 3 "" H 10200 6200 50  0001 C CNN
+	1    10200 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R35
+U 1 1 572EA764
+P 10000 5800
+AR Path="/572EA764" Ref="R35"  Part="1" 
+AR Path="/5FABF5AF/572EA764" Ref="R35"  Part="1" 
+F 0 "R35" H 9900 5859 59  0000 L BNN
+F 1 "1M" H 9900 5670 59  0000 L BNN
+F 2 "display72:R0603" H 10000 5800 50  0001 C CNN
+F 3 "" H 10000 5800 50  0001 C CNN
+	1    10000 5800
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R40
+U 1 1 4783AFF0
+P 9700 5700
+AR Path="/4783AFF0" Ref="R40"  Part="1" 
+AR Path="/5FABF5AF/4783AFF0" Ref="R40"  Part="1" 
+F 0 "R40" H 9600 5759 59  0000 L BNN
+F 1 "100k" H 9600 5570 59  0000 L BNN
+F 2 "display72:R0603" H 9700 5700 50  0001 C CNN
+F 3 "" H 9700 5700 50  0001 C CNN
+	1    9700 5700
+	0    1    -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:BS170_SMD Q3
+U 1 1 A8544CEC
+P 9800 6200
+AR Path="/A8544CEC" Ref="Q3"  Part="1" 
+AR Path="/5FABF5AF/A8544CEC" Ref="Q3"  Part="1" 
+F 0 "Q3" H 9950 6225 59  0000 L BNN
+F 1 "N-CH_MOSFET" V 10200 5625 59  0000 L BNN
+F 2 "display72:SOT23" H 9800 6200 50  0001 C CNN
+F 3 "" H 9800 6200 50  0001 C CNN
+	1    9800 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-MINIMELF D7
+U 1 1 77AE9AAA
+P 10000 6500
+AR Path="/77AE9AAA" Ref="D7"  Part="1" 
+AR Path="/5FABF5AF/77AE9AAA" Ref="D7"  Part="1" 
+F 0 "D7" H 10100 6519 59  0000 L BNN
+F 1 "NTS245SFT1G" H 9550 6359 59  0000 L BNN
+F 2 "display72:MINIMELF" H 10000 6500 50  0001 C CNN
+F 3 "" H 10000 6500 50  0001 C CNN
+	1    10000 6500
+	0    1    -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-MINIMELF D6
+U 1 1 EB2334AC
+P 10300 5800
+AR Path="/EB2334AC" Ref="D6"  Part="1" 
+AR Path="/5FABF5AF/EB2334AC" Ref="D6"  Part="1" 
+F 0 "D6" H 10400 5819 59  0000 L BNN
+F 1 "NTS245SFT1G" H 10000 5909 59  0000 L BNN
+F 2 "display72:MINIMELF" H 10300 5800 50  0001 C CNN
+F 3 "" H 10300 5800 50  0001 C CNN
+	1    10300 5800
+	0    1    -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+12
+U 1 1 BC83E68F
+P 9300 5400
+AR Path="/BC83E68F" Ref="#P+12"  Part="1" 
+AR Path="/5FABF5AF/BC83E68F" Ref="#P+012"  Part="1" 
+F 0 "#P+012" H 9300 5400 50  0001 C CNN
+F 1 "VCC" V 9200 5300 59  0000 L BNN
+F 2 "" H 9300 5400 50  0001 C CNN
+F 3 "" H 9300 5400 50  0001 C CNN
+	1    9300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND28
+U 1 1 9CDEF8C1
+P 9700 6900
+AR Path="/9CDEF8C1" Ref="#AGND28"  Part="1" 
+AR Path="/5FABF5AF/9CDEF8C1" Ref="#AGND028"  Part="1" 
+F 0 "#AGND028" H 9700 6900 50  0001 C CNN
+F 1 " " V 9600 6700 59  0000 L BNN
+F 2 "" H 9700 6900 50  0001 C CNN
+F 3 "" H 9700 6900 50  0001 C CNN
+	1    9700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND26
+U 1 1 C72DD7A5
+P 10000 6900
+AR Path="/C72DD7A5" Ref="#AGND26"  Part="1" 
+AR Path="/5FABF5AF/C72DD7A5" Ref="#AGND026"  Part="1" 
+F 0 "#AGND026" H 10000 6900 50  0001 C CNN
+F 1 " " V 9900 6700 59  0000 L BNN
+F 2 "" H 10000 6900 50  0001 C CNN
+F 3 "" H 10000 6900 50  0001 C CNN
+	1    10000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R41
+U 1 1 9D61A499
+P 5600 6600
+AR Path="/9D61A499" Ref="R41"  Part="1" 
+AR Path="/5FABF5AF/9D61A499" Ref="R41"  Part="1" 
+F 0 "R41" H 5550 6659 59  0000 L BNN
+F 1 "100k" H 5500 6470 59  0000 L BNN
+F 2 "display72:R0603" H 5600 6600 50  0001 C CNN
+F 3 "" H 5600 6600 50  0001 C CNN
+	1    5600 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND30
+U 1 1 E4E7C716
+P 5600 6900
+AR Path="/E4E7C716" Ref="#AGND30"  Part="1" 
+AR Path="/5FABF5AF/E4E7C716" Ref="#AGND030"  Part="1" 
+F 0 "#AGND030" H 5600 6900 50  0001 C CNN
+F 1 " " V 5500 6700 59  0000 L BNN
+F 2 "" H 5600 6900 50  0001 C CNN
+F 3 "" H 5600 6900 50  0001 C CNN
+	1    5600 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R43
+U 1 1 D9FFA4ED
+P 6000 6400
+AR Path="/D9FFA4ED" Ref="R43"  Part="1" 
+AR Path="/5FABF5AF/D9FFA4ED" Ref="R43"  Part="1" 
+F 0 "R43" H 5950 6459 59  0000 L BNN
+F 1 "1k" H 5900 6270 59  0000 L BNN
+F 2 "display72:R0603" H 6000 6400 50  0001 C CNN
+F 3 "" H 6000 6400 50  0001 C CNN
+	1    6000 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:BS170_SMD Q2
+U 1 1 CE051D9B
+P 5100 6400
+AR Path="/CE051D9B" Ref="Q2"  Part="1" 
+AR Path="/5FABF5AF/CE051D9B" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5250 6425 59  0000 L BNN
+F 1 "N-CH_MOSFET" V 5500 5825 59  0000 L BNN
+F 2 "display72:SOT23" H 5100 6400 50  0001 C CNN
+F 3 "" H 5100 6400 50  0001 C CNN
+	1    5100 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND24
+U 1 1 B06B884E
+P 5000 6900
+AR Path="/B06B884E" Ref="#AGND24"  Part="1" 
+AR Path="/5FABF5AF/B06B884E" Ref="#AGND024"  Part="1" 
+F 0 "#AGND024" H 5000 6900 50  0001 C CNN
+F 1 " " V 4900 6700 59  0000 L BNN
+F 2 "" H 5000 6900 50  0001 C CNN
+F 3 "" H 5000 6900 50  0001 C CNN
+	1    5000 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:BSS84 Q1
+U 1 1 35C91C49
+P 4200 6100
+AR Path="/35C91C49" Ref="Q1"  Part="1" 
+AR Path="/5FABF5AF/35C91C49" Ref="Q1"  Part="1" 
+F 0 "Q1" V 4300 6050 59  0000 R TNN
+F 1 "IRLML6401" V 4000 6600 59  0000 R TNN
+F 2 "display72:SOT23" H 4200 6100 50  0001 C CNN
+F 3 "" H 4200 6100 50  0001 C CNN
+	1    4200 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R32
+U 1 1 29FD93D5
+P 5000 5700
+AR Path="/29FD93D5" Ref="R32"  Part="1" 
+AR Path="/5FABF5AF/29FD93D5" Ref="R32"  Part="1" 
+F 0 "R32" H 4950 5759 59  0000 L BNN
+F 1 "1k" H 4900 5570 59  0000 L BNN
+F 2 "display72:R0603" H 5000 5700 50  0001 C CNN
+F 3 "" H 5000 5700 50  0001 C CNN
+	1    5000 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L display72-eagle-import:IRF3704S Q8
+U 1 1 2D2CC871
+P 10000 2500
+AR Path="/2D2CC871" Ref="Q8"  Part="1" 
+AR Path="/5FABF5AF/2D2CC871" Ref="Q8"  Part="1" 
+F 0 "Q8" H 10250 2600 59  0000 L BNN
+F 1 "IRF3704S" H 10250 2500 59  0000 L BNN
+F 2 "display72:D2PACK" H 10000 2500 50  0001 C CNN
+F 3 "" H 10000 2500 50  0001 C CNN
+	1    10000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R55
+U 1 1 D39AB27A
+P 9500 3700
+AR Path="/D39AB27A" Ref="R55"  Part="1" 
+AR Path="/5FABF5AF/D39AB27A" Ref="R55"  Part="1" 
+F 0 "R55" H 9450 3759 59  0000 L BNN
+F 1 "100k" H 9400 3570 59  0000 L BNN
+F 2 "display72:R0603" H 9500 3700 50  0001 C CNN
+F 3 "" H 9500 3700 50  0001 C CNN
+	1    9500 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND39
+U 1 1 DCD092DF
+P 9500 4000
+AR Path="/DCD092DF" Ref="#AGND39"  Part="1" 
+AR Path="/5FABF5AF/DCD092DF" Ref="#AGND039"  Part="1" 
+F 0 "#AGND039" H 9500 4000 50  0001 C CNN
+F 1 " " V 9400 3800 59  0000 L BNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R47
+U 1 1 66393379
+P 9100 3500
+AR Path="/66393379" Ref="R47"  Part="1" 
+AR Path="/5FABF5AF/66393379" Ref="R47"  Part="1" 
+F 0 "R47" H 9050 3559 59  0000 L BNN
+F 1 "1k" H 9000 3370 59  0000 L BNN
+F 2 "display72:R0603" H 9100 3500 50  0001 C CNN
+F 3 "" H 9100 3500 50  0001 C CNN
+	1    9100 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND49
+U 1 1 80AB3722
+P 10100 4000
+AR Path="/80AB3722" Ref="#AGND49"  Part="1" 
+AR Path="/5FABF5AF/80AB3722" Ref="#AGND049"  Part="1" 
+F 0 "#AGND049" H 10100 4000 50  0001 C CNN
+F 1 " " V 10000 3800 59  0000 L BNN
+F 2 "" H 10100 4000 50  0001 C CNN
+F 3 "" H 10100 4000 50  0001 C CNN
+	1    10100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:IRF3704S Q9
+U 1 1 EFC16039
+P 10000 3500
+AR Path="/EFC16039" Ref="Q9"  Part="1" 
+AR Path="/5FABF5AF/EFC16039" Ref="Q9"  Part="1" 
+F 0 "Q9" H 10250 3600 59  0000 L BNN
+F 1 "IRF3704S" H 10250 3500 59  0000 L BNN
+F 2 "display72:D2PACK" H 10000 3500 50  0001 C CNN
+F 3 "" H 10000 3500 50  0001 C CNN
+	1    10000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:DIODE_GROSSSMD D11
+U 1 1 C4C4EB25
+P 9800 2200
+AR Path="/C4C4EB25" Ref="D11"  Part="1" 
+AR Path="/5FABF5AF/C4C4EB25" Ref="D11"  Part="1" 
+F 0 "D11" H 9759 2304 59  0000 L BNN
+F 1 "SS110B" H 9549 2023 59  0000 L BNN
+F 2 "display72:MELF" H 9800 2200 50  0001 C CNN
+F 3 "" H 9800 2200 50  0001 C CNN
+	1    9800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:+12V #P+16
+U 1 1 DA826A5A
+P 9400 2200
+AR Path="/DA826A5A" Ref="#P+16"  Part="1" 
+AR Path="/5FABF5AF/DA826A5A" Ref="#P+016"  Part="1" 
+F 0 "#P+016" H 9400 2200 50  0001 C CNN
+F 1 "+12V" V 9300 2000 59  0001 L BNN
+F 2 "" H 9400 2200 50  0001 C CNN
+F 3 "" H 9400 2200 50  0001 C CNN
+	1    9400 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE_GROSSSMD D12
+U 1 1 D9BDF389
+P 9800 3200
+AR Path="/D9BDF389" Ref="D12"  Part="1" 
+AR Path="/5FABF5AF/D9BDF389" Ref="D12"  Part="1" 
+F 0 "D12" H 9759 3304 59  0000 L BNN
+F 1 "SS110B" H 9549 3023 59  0000 L BNN
+F 2 "display72:MELF" H 9800 3200 50  0001 C CNN
+F 3 "" H 9800 3200 50  0001 C CNN
+	1    9800 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:+12V #P+17
+U 1 1 C06B3C1E
+P 9400 3200
+AR Path="/C06B3C1E" Ref="#P+17"  Part="1" 
+AR Path="/5FABF5AF/C06B3C1E" Ref="#P+017"  Part="1" 
+F 0 "#P+017" H 9400 3200 50  0001 C CNN
+F 1 "+12V" V 9300 3000 59  0001 L BNN
+F 2 "" H 9400 3200 50  0001 C CNN
+F 3 "" H 9400 3200 50  0001 C CNN
+	1    9400 3200
+	0    -1   1    0   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R11
+U 1 1 35E9F723
+P 5000 2600
+AR Path="/35E9F723" Ref="R11"  Part="1" 
+AR Path="/5FABF5AF/35E9F723" Ref="R11"  Part="1" 
+F 0 "R11" H 4713 2609 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 5100 2607 59  0000 L BNN
+F 2 "display72:R0603" H 5000 2600 50  0001 C CNN
+F 3 "" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R12
+U 1 1 FAB7EC68
+P 5000 2700
+AR Path="/FAB7EC68" Ref="R12"  Part="1" 
+AR Path="/5FABF5AF/FAB7EC68" Ref="R12"  Part="1" 
+F 0 "R12" H 4713 2709 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 5100 2707 59  0000 L BNN
+F 2 "display72:R0603" H 5000 2700 50  0001 C CNN
+F 3 "" H 5000 2700 50  0001 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R13
+U 1 1 55F0B35A
+P 5000 2800
+AR Path="/55F0B35A" Ref="R13"  Part="1" 
+AR Path="/5FABF5AF/55F0B35A" Ref="R13"  Part="1" 
+F 0 "R13" H 4713 2809 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 5100 2807 59  0000 L BNN
+F 2 "display72:R0603" H 5000 2800 50  0001 C CNN
+F 3 "" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C23
+U 1 1 50445D95
+P 6200 4600
+AR Path="/50445D95" Ref="C23"  Part="1" 
+AR Path="/5FABF5AF/50445D95" Ref="C23"  Part="1" 
+F 0 "C23" V 6215 4777 59  0000 R TNN
+F 1 "100n" V 6215 4527 59  0000 R TNN
+F 2 "display72:C0603" H 6200 4600 50  0001 C CNN
+F 3 "" H 6200 4600 50  0001 C CNN
+	1    6200 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C22
+U 1 1 63B2428E
+P 6000 4600
+AR Path="/63B2428E" Ref="C22"  Part="1" 
+AR Path="/5FABF5AF/63B2428E" Ref="C22"  Part="1" 
+F 0 "C22" V 6015 4777 59  0000 R TNN
+F 1 "100n" V 6015 4527 59  0000 R TNN
+F 2 "display72:C0603" H 6000 4600 50  0001 C CNN
+F 3 "" H 6000 4600 50  0001 C CNN
+	1    6000 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C21
+U 1 1 4E8A384D
+P 5800 4600
+AR Path="/4E8A384D" Ref="C21"  Part="1" 
+AR Path="/5FABF5AF/4E8A384D" Ref="C21"  Part="1" 
+F 0 "C21" V 5815 4777 59  0000 R TNN
+F 1 "100n" V 5815 4527 59  0000 R TNN
+F 2 "display72:C0603" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND27
+U 1 1 0D108D29
+P 5800 5000
+AR Path="/0D108D29" Ref="#AGND27"  Part="1" 
+AR Path="/5FABF5AF/0D108D29" Ref="#AGND027"  Part="1" 
+F 0 "#AGND027" H 5800 5000 50  0001 C CNN
+F 1 " " V 5700 4800 59  0000 L BNN
+F 2 "" H 5800 5000 50  0001 C CNN
+F 3 "" H 5800 5000 50  0001 C CNN
+	1    5800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND29
+U 1 1 273D87D7
+P 6000 5000
+AR Path="/273D87D7" Ref="#AGND29"  Part="1" 
+AR Path="/5FABF5AF/273D87D7" Ref="#AGND029"  Part="1" 
+F 0 "#AGND029" H 6000 5000 50  0001 C CNN
+F 1 " " V 5900 4800 59  0000 L BNN
+F 2 "" H 6000 5000 50  0001 C CNN
+F 3 "" H 6000 5000 50  0001 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND31
+U 1 1 4B45AC64
+P 6200 5000
+AR Path="/4B45AC64" Ref="#AGND31"  Part="1" 
+AR Path="/5FABF5AF/4B45AC64" Ref="#AGND031"  Part="1" 
+F 0 "#AGND031" H 6200 5000 50  0001 C CNN
+F 1 " " V 6100 4800 59  0000 L BNN
+F 2 "" H 6200 5000 50  0001 C CNN
+F 3 "" H 6200 5000 50  0001 C CNN
+	1    6200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R18
+U 1 1 3E5B1B0C
+P 4100 3800
+AR Path="/3E5B1B0C" Ref="R18"  Part="1" 
+AR Path="/5FABF5AF/3E5B1B0C" Ref="R18"  Part="1" 
+F 0 "R18" H 3775 3709 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 3720 59  0000 L BNN
+F 2 "display72:R0603" H 4100 3800 50  0001 C CNN
+F 3 "" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R19
+U 1 1 7737E7A7
+P 4100 3900
+AR Path="/7737E7A7" Ref="R19"  Part="1" 
+AR Path="/5FABF5AF/7737E7A7" Ref="R19"  Part="1" 
+F 0 "R19" H 3775 3809 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 3820 59  0000 L BNN
+F 2 "display72:R0603" H 4100 3900 50  0001 C CNN
+F 3 "" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R20
+U 1 1 690F9C42
+P 4100 4000
+AR Path="/690F9C42" Ref="R20"  Part="1" 
+AR Path="/5FABF5AF/690F9C42" Ref="R20"  Part="1" 
+F 0 "R20" H 3775 3909 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 3920 59  0000 L BNN
+F 2 "display72:R0603" H 4100 4000 50  0001 C CNN
+F 3 "" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R21
+U 1 1 0EAA9A9B
+P 4100 4100
+AR Path="/0EAA9A9B" Ref="R21"  Part="1" 
+AR Path="/5FABF5AF/0EAA9A9B" Ref="R21"  Part="1" 
+F 0 "R21" H 3775 4009 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 4020 59  0000 L BNN
+F 2 "display72:R0603" H 4100 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0001 C CNN
+	1    4100 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R22
+U 1 1 A422F023
+P 4100 4200
+AR Path="/A422F023" Ref="R22"  Part="1" 
+AR Path="/5FABF5AF/A422F023" Ref="R22"  Part="1" 
+F 0 "R22" H 3775 4109 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 4120 59  0000 L BNN
+F 2 "display72:R0603" H 4100 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R23
+U 1 1 5A4F763A
+P 4100 4300
+AR Path="/5A4F763A" Ref="R23"  Part="1" 
+AR Path="/5FABF5AF/5A4F763A" Ref="R23"  Part="1" 
+F 0 "R23" H 3775 4209 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 4200 4220 59  0000 L BNN
+F 2 "display72:R0603" H 4100 4300 50  0001 C CNN
+F 3 "" H 4100 4300 50  0001 C CNN
+	1    4100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+13
+U 1 1 1A067FB7
+P 6100 5500
+AR Path="/1A067FB7" Ref="#P+13"  Part="1" 
+AR Path="/5FABF5AF/1A067FB7" Ref="#P+013"  Part="1" 
+F 0 "#P+013" H 6100 5500 50  0001 C CNN
+F 1 "VCC" V 6000 5400 59  0000 L BNN
+F 2 "" H 6100 5500 50  0001 C CNN
+F 3 "" H 6100 5500 50  0001 C CNN
+	1    6100 5500
+	0    1    -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R39
+U 1 1 8C2DE948
+P 5500 5500
+AR Path="/8C2DE948" Ref="R39"  Part="1" 
+AR Path="/5FABF5AF/8C2DE948" Ref="R39"  Part="1" 
+F 0 "R39" H 5450 5559 59  0000 L BNN
+F 1 "100" H 5400 5370 59  0000 L BNN
+F 2 "display72:R0603" H 5500 5500 50  0001 C CNN
+F 3 "" H 5500 5500 50  0001 C CNN
+	1    5500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R25
+U 1 1 314D6E2C
+P 3800 6400
+AR Path="/314D6E2C" Ref="R25"  Part="1" 
+AR Path="/5FABF5AF/314D6E2C" Ref="R25"  Part="1" 
+F 0 "R25" H 3750 6459 59  0000 L BNN
+F 1 "220" H 3700 6270 59  0000 L BNN
+F 2 "display72:R0603" H 3800 6400 50  0001 C CNN
+F 3 "" H 3800 6400 50  0001 C CNN
+	1    3800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R10
+U 1 1 C3C787DE
+P 5000 2500
+AR Path="/C3C787DE" Ref="R10"  Part="1" 
+AR Path="/5FABF5AF/C3C787DE" Ref="R10"  Part="1" 
+F 0 "R10" H 4713 2509 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 5100 2507 59  0000 L BNN
+F 2 "display72:R0603" H 5000 2500 50  0001 C CNN
+F 3 "" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R4
+U 1 1 083F992A
+P 2400 3800
+AR Path="/083F992A" Ref="R4"  Part="1" 
+AR Path="/5FABF5AF/083F992A" Ref="R4"  Part="1" 
+F 0 "R4" H 2013 3809 59  0000 L BNN
+F 1 "100" H 2500 3807 59  0000 L BNN
+F 2 "display72:R0603" H 2400 3800 50  0001 C CNN
+F 3 "" H 2400 3800 50  0001 C CNN
+	1    2400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R5
+U 1 1 78444BE7
+P 2400 3900
+AR Path="/78444BE7" Ref="R5"  Part="1" 
+AR Path="/5FABF5AF/78444BE7" Ref="R5"  Part="1" 
+F 0 "R5" H 2013 3909 59  0000 L BNN
+F 1 "100" H 2500 3907 59  0000 L BNN
+F 2 "display72:R0603" H 2400 3900 50  0001 C CNN
+F 3 "" H 2400 3900 50  0001 C CNN
+	1    2400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R6
+U 1 1 A94723DD
+P 2400 4000
+AR Path="/A94723DD" Ref="R6"  Part="1" 
+AR Path="/5FABF5AF/A94723DD" Ref="R6"  Part="1" 
+F 0 "R6" H 2013 4009 59  0000 L BNN
+F 1 "100" H 2500 4007 59  0000 L BNN
+F 2 "display72:R0603" H 2400 4000 50  0001 C CNN
+F 3 "" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R7
+U 1 1 54DAD5C3
+P 2400 4100
+AR Path="/54DAD5C3" Ref="R7"  Part="1" 
+AR Path="/5FABF5AF/54DAD5C3" Ref="R7"  Part="1" 
+F 0 "R7" H 2013 4109 59  0000 L BNN
+F 1 "100" H 2500 4107 59  0000 L BNN
+F 2 "display72:R0603" H 2400 4100 50  0001 C CNN
+F 3 "" H 2400 4100 50  0001 C CNN
+	1    2400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R8
+U 1 1 8997169A
+P 2400 4200
+AR Path="/8997169A" Ref="R8"  Part="1" 
+AR Path="/5FABF5AF/8997169A" Ref="R8"  Part="1" 
+F 0 "R8" H 2013 4209 59  0000 L BNN
+F 1 "100" H 2500 4207 59  0000 L BNN
+F 2 "display72:R0603" H 2400 4200 50  0001 C CNN
+F 3 "" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R9
+U 1 1 9BFFCD4D
+P 2400 4300
+AR Path="/9BFFCD4D" Ref="R9"  Part="1" 
+AR Path="/5FABF5AF/9BFFCD4D" Ref="R9"  Part="1" 
+F 0 "R9" H 2013 4309 59  0000 L BNN
+F 1 "100" H 2500 4307 59  0000 L BNN
+F 2 "display72:R0603" H 2400 4300 50  0001 C CNN
+F 3 "" H 2400 4300 50  0001 C CNN
+	1    2400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C14
+U 1 1 73BFF46F
+P 3700 4600
+AR Path="/73BFF46F" Ref="C14"  Part="1" 
+AR Path="/5FABF5AF/73BFF46F" Ref="C14"  Part="1" 
+F 0 "C14" V 3715 4777 59  0000 R TNN
+F 1 "100n" V 3715 4527 59  0000 R TNN
+F 2 "display72:C0603" H 3700 4600 50  0001 C CNN
+F 3 "" H 3700 4600 50  0001 C CNN
+	1    3700 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C13
+U 1 1 0FBA7A5F
+P 3500 4600
+AR Path="/0FBA7A5F" Ref="C13"  Part="1" 
+AR Path="/5FABF5AF/0FBA7A5F" Ref="C13"  Part="1" 
+F 0 "C13" V 3515 4777 59  0000 R TNN
+F 1 "100n" V 3515 4527 59  0000 R TNN
+F 2 "display72:C0603" H 3500 4600 50  0001 C CNN
+F 3 "" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C12
+U 1 1 2744AA49
+P 3300 4600
+AR Path="/2744AA49" Ref="C12"  Part="1" 
+AR Path="/5FABF5AF/2744AA49" Ref="C12"  Part="1" 
+F 0 "C12" V 3315 4777 59  0000 R TNN
+F 1 "100n" V 3315 4527 59  0000 R TNN
+F 2 "display72:C0603" H 3300 4600 50  0001 C CNN
+F 3 "" H 3300 4600 50  0001 C CNN
+	1    3300 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C11
+U 1 1 329D01CF
+P 3100 4600
+AR Path="/329D01CF" Ref="C11"  Part="1" 
+AR Path="/5FABF5AF/329D01CF" Ref="C11"  Part="1" 
+F 0 "C11" V 3115 4777 59  0000 R TNN
+F 1 "100n" V 3115 4527 59  0000 R TNN
+F 2 "display72:C0603" H 3100 4600 50  0001 C CNN
+F 3 "" H 3100 4600 50  0001 C CNN
+	1    3100 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C10
+U 1 1 08F1D4ED
+P 2900 4600
+AR Path="/08F1D4ED" Ref="C10"  Part="1" 
+AR Path="/5FABF5AF/08F1D4ED" Ref="C10"  Part="1" 
+F 0 "C10" V 2915 4777 59  0000 R TNN
+F 1 "100n" V 2915 4527 59  0000 R TNN
+F 2 "display72:C0603" H 2900 4600 50  0001 C CNN
+F 3 "" H 2900 4600 50  0001 C CNN
+	1    2900 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C9
+U 1 1 93F3FA2A
+P 2700 4600
+AR Path="/93F3FA2A" Ref="C9"  Part="1" 
+AR Path="/5FABF5AF/93F3FA2A" Ref="C9"  Part="1" 
+F 0 "C9" V 2715 4777 59  0000 R TNN
+F 1 "100n" V 2715 4527 59  0000 R TNN
+F 2 "display72:C0603" H 2700 4600 50  0001 C CNN
+F 3 "" H 2700 4600 50  0001 C CNN
+	1    2700 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND13
+U 1 1 DA7AFD4B
+P 2700 5000
+AR Path="/DA7AFD4B" Ref="#AGND13"  Part="1" 
+AR Path="/5FABF5AF/DA7AFD4B" Ref="#AGND013"  Part="1" 
+F 0 "#AGND013" H 2700 5000 50  0001 C CNN
+F 1 " " V 2600 4800 59  0000 L BNN
+F 2 "" H 2700 5000 50  0001 C CNN
+F 3 "" H 2700 5000 50  0001 C CNN
+	1    2700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND14
+U 1 1 27F2685E
+P 2900 5000
+AR Path="/27F2685E" Ref="#AGND14"  Part="1" 
+AR Path="/5FABF5AF/27F2685E" Ref="#AGND014"  Part="1" 
+F 0 "#AGND014" H 2900 5000 50  0001 C CNN
+F 1 " " V 2800 4800 59  0000 L BNN
+F 2 "" H 2900 5000 50  0001 C CNN
+F 3 "" H 2900 5000 50  0001 C CNN
+	1    2900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND15
+U 1 1 DD71209F
+P 3100 5000
+AR Path="/DD71209F" Ref="#AGND15"  Part="1" 
+AR Path="/5FABF5AF/DD71209F" Ref="#AGND015"  Part="1" 
+F 0 "#AGND015" H 3100 5000 50  0001 C CNN
+F 1 " " V 3000 4800 59  0000 L BNN
+F 2 "" H 3100 5000 50  0001 C CNN
+F 3 "" H 3100 5000 50  0001 C CNN
+	1    3100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND16
+U 1 1 53E2FC02
+P 3300 5000
+AR Path="/53E2FC02" Ref="#AGND16"  Part="1" 
+AR Path="/5FABF5AF/53E2FC02" Ref="#AGND016"  Part="1" 
+F 0 "#AGND016" H 3300 5000 50  0001 C CNN
+F 1 " " V 3200 4800 59  0000 L BNN
+F 2 "" H 3300 5000 50  0001 C CNN
+F 3 "" H 3300 5000 50  0001 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND17
+U 1 1 F63C44FB
+P 3500 5000
+AR Path="/F63C44FB" Ref="#AGND17"  Part="1" 
+AR Path="/5FABF5AF/F63C44FB" Ref="#AGND017"  Part="1" 
+F 0 "#AGND017" H 3500 5000 50  0001 C CNN
+F 1 " " V 3400 4800 59  0000 L BNN
+F 2 "" H 3500 5000 50  0001 C CNN
+F 3 "" H 3500 5000 50  0001 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND18
+U 1 1 E25C03F2
+P 3700 5000
+AR Path="/E25C03F2" Ref="#AGND18"  Part="1" 
+AR Path="/5FABF5AF/E25C03F2" Ref="#AGND018"  Part="1" 
+F 0 "#AGND018" H 3700 5000 50  0001 C CNN
+F 1 " " V 3600 4800 59  0000 L BNN
+F 2 "" H 3700 5000 50  0001 C CNN
+F 3 "" H 3700 5000 50  0001 C CNN
+	1    3700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C15
+U 1 1 A041F231
+P 6400 4600
+AR Path="/A041F231" Ref="C15"  Part="1" 
+AR Path="/5FABF5AF/A041F231" Ref="C15"  Part="1" 
+F 0 "C15" V 6415 4777 59  0000 R TNN
+F 1 "100n" V 6415 4527 59  0000 R TNN
+F 2 "display72:C0603" H 6400 4600 50  0001 C CNN
+F 3 "" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND19
+U 1 1 8DE3FB79
+P 6400 5000
+AR Path="/8DE3FB79" Ref="#AGND19"  Part="1" 
+AR Path="/5FABF5AF/8DE3FB79" Ref="#AGND019"  Part="1" 
+F 0 "#AGND019" H 6400 5000 50  0001 C CNN
+F 1 " " V 6300 4800 59  0000 L BNN
+F 2 "" H 6400 5000 50  0001 C CNN
+F 3 "" H 6400 5000 50  0001 C CNN
+	1    6400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:IRF3704S Q7
+U 1 1 6A33A87D
+P 10000 1700
+AR Path="/6A33A87D" Ref="Q7"  Part="1" 
+AR Path="/5FABF5AF/6A33A87D" Ref="Q7"  Part="1" 
+F 0 "Q7" H 10250 1800 59  0000 L BNN
+F 1 "IRF3704S" H 10250 1700 59  0000 L BNN
+F 2 "display72:D2PACK" H 10000 1700 50  0001 C CNN
+F 3 "" H 10000 1700 50  0001 C CNN
+	1    10000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:DIODE_GROSSSMD D13
+U 1 1 8A6324DF
+P 10100 1100
+AR Path="/8A6324DF" Ref="D13"  Part="1" 
+AR Path="/5FABF5AF/8A6324DF" Ref="D13"  Part="1" 
+F 0 "D13" H 10059 1204 59  0000 L BNN
+F 1 "SS110B" H 9849 923 59  0000 L BNN
+F 2 "display72:MELF" H 10100 1100 50  0001 C CNN
+F 3 "" H 10100 1100 50  0001 C CNN
+	1    10100 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:+12V #P+18
+U 1 1 4FF0227B
+P 10100 800
+AR Path="/4FF0227B" Ref="#P+18"  Part="1" 
+AR Path="/5FABF5AF/4FF0227B" Ref="#P+018"  Part="1" 
+F 0 "#P+018" H 10100 800 50  0001 C CNN
+F 1 "+12V" V 10000 600 59  0001 L BNN
+F 2 "" H 10100 800 50  0001 C CNN
+F 3 "" H 10100 800 50  0001 C CNN
+	1    10100 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-SOD523 D2
+U 1 1 8D071FA0
+P 3000 2500
+AR Path="/8D071FA0" Ref="D2"  Part="1" 
+AR Path="/5FABF5AF/8D071FA0" Ref="D2"  Part="1" 
+F 0 "D2" H 2725 2419 59  0000 L BNN
+F 1 "1N4448" H 3050 2409 59  0000 L BNN
+F 2 "display72:SOD523" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-SOD523 D3
+U 1 1 122295E3
+P 3000 2600
+AR Path="/122295E3" Ref="D3"  Part="1" 
+AR Path="/5FABF5AF/122295E3" Ref="D3"  Part="1" 
+F 0 "D3" H 2725 2519 59  0000 L BNN
+F 1 "1N4448" H 3050 2509 59  0000 L BNN
+F 2 "display72:SOD523" H 3000 2600 50  0001 C CNN
+F 3 "" H 3000 2600 50  0001 C CNN
+	1    3000 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-SOD523 D4
+U 1 1 85EAC3AB
+P 3000 2700
+AR Path="/85EAC3AB" Ref="D4"  Part="1" 
+AR Path="/5FABF5AF/85EAC3AB" Ref="D4"  Part="1" 
+F 0 "D4" H 2725 2619 59  0000 L BNN
+F 1 "1N4448" H 3050 2609 59  0000 L BNN
+F 2 "display72:SOD523" H 3000 2700 50  0001 C CNN
+F 3 "" H 3000 2700 50  0001 C CNN
+	1    3000 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:DIODE-SOD523 D5
+U 1 1 2959963F
+P 3000 2800
+AR Path="/2959963F" Ref="D5"  Part="1" 
+AR Path="/5FABF5AF/2959963F" Ref="D5"  Part="1" 
+F 0 "D5" H 2725 2719 59  0000 L BNN
+F 1 "1N4448" H 3050 2709 59  0000 L BNN
+F 2 "display72:SOD523" H 3000 2800 50  0001 C CNN
+F 3 "" H 3000 2800 50  0001 C CNN
+	1    3000 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R115
+U 1 1 230B656E
+P 6400 1400
+AR Path="/230B656E" Ref="R115"  Part="1" 
+AR Path="/5FABF5AF/230B656E" Ref="R115"  Part="1" 
+F 0 "R115" H 6437 1446 59  0000 L BNN
+F 1 "10k" H 6250 1445 59  0000 L BNN
+F 2 "display72:R0603" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L display72-eagle-import:VCC #P+40
+U 1 1 E6A7331F
+P 6400 1100
+AR Path="/E6A7331F" Ref="#P+40"  Part="1" 
+AR Path="/5FABF5AF/E6A7331F" Ref="#P+040"  Part="1" 
+F 0 "#P+040" H 6400 1100 50  0001 C CNN
+F 1 "VCC" V 6300 1000 59  0000 L BNN
+F 2 "" H 6400 1100 50  0001 C CNN
+F 3 "" H 6400 1100 50  0001 C CNN
+	1    6400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C16
+U 1 1 3BF359D1
+P 4300 3000
+AR Path="/3BF359D1" Ref="C16"  Part="1" 
+AR Path="/5FABF5AF/3BF359D1" Ref="C16"  Part="1" 
+F 0 "C16" V 4315 3177 59  0000 R TNN
+F 1 "100n" V 4315 2927 59  0000 R TNN
+F 2 "display72:C0603" H 4300 3000 50  0001 C CNN
+F 3 "" H 4300 3000 50  0001 C CNN
+	1    4300 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C17
+U 1 1 20F00162
+P 4100 3000
+AR Path="/20F00162" Ref="C17"  Part="1" 
+AR Path="/5FABF5AF/20F00162" Ref="C17"  Part="1" 
+F 0 "C17" V 4115 3177 59  0000 R TNN
+F 1 "100n" V 4115 2927 59  0000 R TNN
+F 2 "display72:C0603" H 4100 3000 50  0001 C CNN
+F 3 "" H 4100 3000 50  0001 C CNN
+	1    4100 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C19
+U 1 1 50121ED7
+P 3900 3000
+AR Path="/50121ED7" Ref="C19"  Part="1" 
+AR Path="/5FABF5AF/50121ED7" Ref="C19"  Part="1" 
+F 0 "C19" V 3915 3177 59  0000 R TNN
+F 1 "100n" V 3915 2927 59  0000 R TNN
+F 2 "display72:C0603" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND12
+U 1 1 D36C17C4
+P 3900 3400
+AR Path="/D36C17C4" Ref="#AGND12"  Part="1" 
+AR Path="/5FABF5AF/D36C17C4" Ref="#AGND012"  Part="1" 
+F 0 "#AGND012" H 3900 3400 50  0001 C CNN
+F 1 " " V 3800 3200 59  0000 L BNN
+F 2 "" H 3900 3400 50  0001 C CNN
+F 3 "" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND20
+U 1 1 47004065
+P 4100 3400
+AR Path="/47004065" Ref="#AGND20"  Part="1" 
+AR Path="/5FABF5AF/47004065" Ref="#AGND020"  Part="1" 
+F 0 "#AGND020" H 4100 3400 50  0001 C CNN
+F 1 " " V 4000 3200 59  0000 L BNN
+F 2 "" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND21
+U 1 1 A44A6F39
+P 4300 3400
+AR Path="/A44A6F39" Ref="#AGND21"  Part="1" 
+AR Path="/5FABF5AF/A44A6F39" Ref="#AGND021"  Part="1" 
+F 0 "#AGND021" H 4300 3400 50  0001 C CNN
+F 1 " " V 4200 3200 59  0000 L BNN
+F 2 "" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0001 C CNN
+	1    4300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C20
+U 1 1 12BF572B
+P 4500 3000
+AR Path="/12BF572B" Ref="C20"  Part="1" 
+AR Path="/5FABF5AF/12BF572B" Ref="C20"  Part="1" 
+F 0 "C20" V 4515 3177 59  0000 R TNN
+F 1 "100n" V 4515 2927 59  0000 R TNN
+F 2 "display72:C0603" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND23
+U 1 1 04CB61C3
+P 4500 3400
+AR Path="/04CB61C3" Ref="#AGND23"  Part="1" 
+AR Path="/5FABF5AF/04CB61C3" Ref="#AGND023"  Part="1" 
+F 0 "#AGND023" H 4500 3400 50  0001 C CNN
+F 1 " " V 4400 3200 59  0000 L BNN
+F 2 "" H 4500 3400 50  0001 C CNN
+F 3 "" H 4500 3400 50  0001 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C24
+U 1 1 B4BCC975
+P 5500 4600
+AR Path="/B4BCC975" Ref="C24"  Part="1" 
+AR Path="/5FABF5AF/B4BCC975" Ref="C24"  Part="1" 
+F 0 "C24" V 5515 4777 59  0000 R TNN
+F 1 "100n" V 5515 4527 59  0000 R TNN
+F 2 "display72:C0603" H 5500 4600 50  0001 C CNN
+F 3 "" H 5500 4600 50  0001 C CNN
+	1    5500 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C25
+U 1 1 9CB31313
+P 5300 4600
+AR Path="/9CB31313" Ref="C25"  Part="1" 
+AR Path="/5FABF5AF/9CB31313" Ref="C25"  Part="1" 
+F 0 "C25" V 5315 4777 59  0000 R TNN
+F 1 "100n" V 5315 4527 59  0000 R TNN
+F 2 "display72:C0603" H 5300 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C26
+U 1 1 CD45ED21
+P 5100 4600
+AR Path="/CD45ED21" Ref="C26"  Part="1" 
+AR Path="/5FABF5AF/CD45ED21" Ref="C26"  Part="1" 
+F 0 "C26" V 5115 4777 59  0000 R TNN
+F 1 "100n" V 5115 4527 59  0000 R TNN
+F 2 "display72:C0603" H 5100 4600 50  0001 C CNN
+F 3 "" H 5100 4600 50  0001 C CNN
+	1    5100 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C90
+U 1 1 4ECFA938
+P 4900 4600
+AR Path="/4ECFA938" Ref="C90"  Part="1" 
+AR Path="/5FABF5AF/4ECFA938" Ref="C90"  Part="1" 
+F 0 "C90" V 4915 4777 59  0000 R TNN
+F 1 "100n" V 4915 4527 59  0000 R TNN
+F 2 "display72:C0603" H 4900 4600 50  0001 C CNN
+F 3 "" H 4900 4600 50  0001 C CNN
+	1    4900 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C91
+U 1 1 F8365F46
+P 4700 4600
+AR Path="/F8365F46" Ref="C91"  Part="1" 
+AR Path="/5FABF5AF/F8365F46" Ref="C91"  Part="1" 
+F 0 "C91" V 4715 4777 59  0000 R TNN
+F 1 "100n" V 4715 4527 59  0000 R TNN
+F 2 "display72:C0603" H 4700 4600 50  0001 C CNN
+F 3 "" H 4700 4600 50  0001 C CNN
+	1    4700 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C92
+U 1 1 C03512B7
+P 4500 4600
+AR Path="/C03512B7" Ref="C92"  Part="1" 
+AR Path="/5FABF5AF/C03512B7" Ref="C92"  Part="1" 
+F 0 "C92" V 4515 4777 59  0000 R TNN
+F 1 "100n" V 4515 4527 59  0000 R TNN
+F 2 "display72:C0603" H 4500 4600 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND25
+U 1 1 EC7121F2
+P 4500 5000
+AR Path="/EC7121F2" Ref="#AGND25"  Part="1" 
+AR Path="/5FABF5AF/EC7121F2" Ref="#AGND025"  Part="1" 
+F 0 "#AGND025" H 4500 5000 50  0001 C CNN
+F 1 " " V 4400 4800 59  0000 L BNN
+F 2 "" H 4500 5000 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND32
+U 1 1 C59402EA
+P 4700 5000
+AR Path="/C59402EA" Ref="#AGND32"  Part="1" 
+AR Path="/5FABF5AF/C59402EA" Ref="#AGND032"  Part="1" 
+F 0 "#AGND032" H 4700 5000 50  0001 C CNN
+F 1 " " V 4600 4800 59  0000 L BNN
+F 2 "" H 4700 5000 50  0001 C CNN
+F 3 "" H 4700 5000 50  0001 C CNN
+	1    4700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND33
+U 1 1 068DE627
+P 4900 5000
+AR Path="/068DE627" Ref="#AGND33"  Part="1" 
+AR Path="/5FABF5AF/068DE627" Ref="#AGND033"  Part="1" 
+F 0 "#AGND033" H 4900 5000 50  0001 C CNN
+F 1 " " V 4800 4800 59  0000 L BNN
+F 2 "" H 4900 5000 50  0001 C CNN
+F 3 "" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND34
+U 1 1 6120B7AD
+P 5100 5000
+AR Path="/6120B7AD" Ref="#AGND34"  Part="1" 
+AR Path="/5FABF5AF/6120B7AD" Ref="#AGND034"  Part="1" 
+F 0 "#AGND034" H 5100 5000 50  0001 C CNN
+F 1 " " V 5000 4800 59  0000 L BNN
+F 2 "" H 5100 5000 50  0001 C CNN
+F 3 "" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND145
+U 1 1 C72DABA8
+P 5300 5000
+AR Path="/C72DABA8" Ref="#AGND145"  Part="1" 
+AR Path="/5FABF5AF/C72DABA8" Ref="#AGND0145"  Part="1" 
+F 0 "#AGND0145" H 5300 5000 50  0001 C CNN
+F 1 " " V 5200 4800 59  0000 L BNN
+F 2 "" H 5300 5000 50  0001 C CNN
+F 3 "" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND154
+U 1 1 E1399A38
+P 5500 5000
+AR Path="/E1399A38" Ref="#AGND154"  Part="1" 
+AR Path="/5FABF5AF/E1399A38" Ref="#AGND0154"  Part="1" 
+F 0 "#AGND0154" H 5500 5000 50  0001 C CNN
+F 1 " " V 5400 4800 59  0000 L BNN
+F 2 "" H 5500 5000 50  0001 C CNN
+F 3 "" H 5500 5000 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND155
+U 1 1 F6138A11
+P 1200 5000
+AR Path="/F6138A11" Ref="#AGND155"  Part="1" 
+AR Path="/5FABF5AF/F6138A11" Ref="#AGND0155"  Part="1" 
+F 0 "#AGND0155" H 1200 5000 50  0001 C CNN
+F 1 " " V 1100 4800 59  0000 L BNN
+F 2 "" H 1200 5000 50  0001 C CNN
+F 3 "" H 1200 5000 50  0001 C CNN
+	1    1200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:PINHD-2X7_90 JP5
+U 1 1 056852D9
+P 15300 5100
+AR Path="/056852D9" Ref="JP5"  Part="1" 
+AR Path="/5FABF5AF/056852D9" Ref="JP5"  Part="1" 
+F 0 "JP5" H 15050 5525 59  0000 L BNN
+F 1 "PINHD-2X7_90" H 15050 4600 59  0000 L BNN
+F 2 "display72:2X07_90" H 15300 5100 50  0001 C CNN
+F 3 "" H 15300 5100 50  0001 C CNN
+	1    15300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND35
+U 1 1 4E3B749A
+P 15900 5800
+AR Path="/4E3B749A" Ref="#AGND35"  Part="1" 
+AR Path="/5FABF5AF/4E3B749A" Ref="#AGND035"  Part="1" 
+F 0 "#AGND035" H 15900 5800 50  0001 C CNN
+F 1 " " V 15800 5600 59  0000 L BNN
+F 2 "" H 15900 5800 50  0001 C CNN
+F 3 "" H 15900 5800 50  0001 C CNN
+	1    15900 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C27
+U 1 1 0ABE1D3C
+P 14400 5700
+AR Path="/0ABE1D3C" Ref="C27"  Part="1" 
+AR Path="/5FABF5AF/0ABE1D3C" Ref="C27"  Part="1" 
+F 0 "C27" V 14415 5878 59  0000 R TNN
+F 1 "100n" V 14415 5628 59  0000 R TNN
+F 2 "display72:C0603" H 14400 5700 50  0001 C CNN
+F 3 "" H 14400 5700 50  0001 C CNN
+	1    14400 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C93
+U 1 1 313F1449
+P 14200 5700
+AR Path="/313F1449" Ref="C93"  Part="1" 
+AR Path="/5FABF5AF/313F1449" Ref="C93"  Part="1" 
+F 0 "C93" V 14215 5878 59  0000 R TNN
+F 1 "100n" V 14215 5628 59  0000 R TNN
+F 2 "display72:C0603" H 14200 5700 50  0001 C CNN
+F 3 "" H 14200 5700 50  0001 C CNN
+	1    14200 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C94
+U 1 1 0DBF1D43
+P 14000 5700
+AR Path="/0DBF1D43" Ref="C94"  Part="1" 
+AR Path="/5FABF5AF/0DBF1D43" Ref="C94"  Part="1" 
+F 0 "C94" V 14015 5878 59  0000 R TNN
+F 1 "100n" V 14015 5628 59  0000 R TNN
+F 2 "display72:C0603" H 14000 5700 50  0001 C CNN
+F 3 "" H 14000 5700 50  0001 C CNN
+	1    14000 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C95
+U 1 1 6241F451
+P 13800 5700
+AR Path="/6241F451" Ref="C95"  Part="1" 
+AR Path="/5FABF5AF/6241F451" Ref="C95"  Part="1" 
+F 0 "C95" V 13815 5878 59  0000 R TNN
+F 1 "100n" V 13815 5628 59  0000 R TNN
+F 2 "display72:C0603" H 13800 5700 50  0001 C CNN
+F 3 "" H 13800 5700 50  0001 C CNN
+	1    13800 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C96
+U 1 1 1768C1FA
+P 13600 5700
+AR Path="/1768C1FA" Ref="C96"  Part="1" 
+AR Path="/5FABF5AF/1768C1FA" Ref="C96"  Part="1" 
+F 0 "C96" V 13615 5878 59  0000 R TNN
+F 1 "100n" V 13615 5628 59  0000 R TNN
+F 2 "display72:C0603" H 13600 5700 50  0001 C CNN
+F 3 "" H 13600 5700 50  0001 C CNN
+	1    13600 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C97
+U 1 1 7346883D
+P 13400 5700
+AR Path="/7346883D" Ref="C97"  Part="1" 
+AR Path="/5FABF5AF/7346883D" Ref="C97"  Part="1" 
+F 0 "C97" V 13415 5878 59  0000 R TNN
+F 1 "100n" V 13415 5628 59  0000 R TNN
+F 2 "display72:C0603" H 13400 5700 50  0001 C CNN
+F 3 "" H 13400 5700 50  0001 C CNN
+	1    13400 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND36
+U 1 1 4FDD657B
+P 13400 6100
+AR Path="/4FDD657B" Ref="#AGND36"  Part="1" 
+AR Path="/5FABF5AF/4FDD657B" Ref="#AGND036"  Part="1" 
+F 0 "#AGND036" H 13400 6100 50  0001 C CNN
+F 1 " " V 13300 5900 59  0000 L BNN
+F 2 "" H 13400 6100 50  0001 C CNN
+F 3 "" H 13400 6100 50  0001 C CNN
+	1    13400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND41
+U 1 1 45C47F22
+P 13600 6100
+AR Path="/45C47F22" Ref="#AGND41"  Part="1" 
+AR Path="/5FABF5AF/45C47F22" Ref="#AGND041"  Part="1" 
+F 0 "#AGND041" H 13600 6100 50  0001 C CNN
+F 1 " " V 13500 5900 59  0000 L BNN
+F 2 "" H 13600 6100 50  0001 C CNN
+F 3 "" H 13600 6100 50  0001 C CNN
+	1    13600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND44
+U 1 1 1AC14901
+P 13800 6100
+AR Path="/1AC14901" Ref="#AGND44"  Part="1" 
+AR Path="/5FABF5AF/1AC14901" Ref="#AGND044"  Part="1" 
+F 0 "#AGND044" H 13800 6100 50  0001 C CNN
+F 1 " " V 13700 5900 59  0000 L BNN
+F 2 "" H 13800 6100 50  0001 C CNN
+F 3 "" H 13800 6100 50  0001 C CNN
+	1    13800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND51
+U 1 1 A5DAC4DB
+P 14000 6100
+AR Path="/A5DAC4DB" Ref="#AGND51"  Part="1" 
+AR Path="/5FABF5AF/A5DAC4DB" Ref="#AGND051"  Part="1" 
+F 0 "#AGND051" H 14000 6100 50  0001 C CNN
+F 1 " " V 13900 5900 59  0000 L BNN
+F 2 "" H 14000 6100 50  0001 C CNN
+F 3 "" H 14000 6100 50  0001 C CNN
+	1    14000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND156
+U 1 1 944BBFAE
+P 14200 6100
+AR Path="/944BBFAE" Ref="#AGND156"  Part="1" 
+AR Path="/5FABF5AF/944BBFAE" Ref="#AGND0156"  Part="1" 
+F 0 "#AGND0156" H 14200 6100 50  0001 C CNN
+F 1 " " V 14100 5900 59  0000 L BNN
+F 2 "" H 14200 6100 50  0001 C CNN
+F 3 "" H 14200 6100 50  0001 C CNN
+	1    14200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND157
+U 1 1 05F3E101
+P 14400 6100
+AR Path="/05F3E101" Ref="#AGND157"  Part="1" 
+AR Path="/5FABF5AF/05F3E101" Ref="#AGND0157"  Part="1" 
+F 0 "#AGND0157" H 14400 6100 50  0001 C CNN
+F 1 " " V 14300 5900 59  0000 L BNN
+F 2 "" H 14400 6100 50  0001 C CNN
+F 3 "" H 14400 6100 50  0001 C CNN
+	1    14400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C98
+U 1 1 943EC404
+P 13200 5700
+AR Path="/943EC404" Ref="C98"  Part="1" 
+AR Path="/5FABF5AF/943EC404" Ref="C98"  Part="1" 
+F 0 "C98" V 13215 5878 59  0000 R TNN
+F 1 "100n" V 13215 5628 59  0000 R TNN
+F 2 "display72:C0603" H 13200 5700 50  0001 C CNN
+F 3 "" H 13200 5700 50  0001 C CNN
+	1    13200 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND158
+U 1 1 AEBA099B
+P 13200 6100
+AR Path="/AEBA099B" Ref="#AGND158"  Part="1" 
+AR Path="/5FABF5AF/AEBA099B" Ref="#AGND0158"  Part="1" 
+F 0 "#AGND0158" H 13200 6100 50  0001 C CNN
+F 1 " " V 13100 5900 59  0000 L BNN
+F 2 "" H 13200 6100 50  0001 C CNN
+F 3 "" H 13200 6100 50  0001 C CNN
+	1    13200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R1
+U 1 1 5CB2ADC0
+P 12800 4800
+AR Path="/5CB2ADC0" Ref="R1"  Part="1" 
+AR Path="/5FABF5AF/5CB2ADC0" Ref="R1"  Part="1" 
+F 0 "R1" H 12475 4709 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 4720 59  0000 L BNN
+F 2 "display72:R0603" H 12800 4800 50  0001 C CNN
+F 3 "" H 12800 4800 50  0001 C CNN
+	1    12800 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R2
+U 1 1 8D8A4A7D
+P 12800 4900
+AR Path="/8D8A4A7D" Ref="R2"  Part="1" 
+AR Path="/5FABF5AF/8D8A4A7D" Ref="R2"  Part="1" 
+F 0 "R2" H 12475 4809 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 4820 59  0000 L BNN
+F 2 "display72:R0603" H 12800 4900 50  0001 C CNN
+F 3 "" H 12800 4900 50  0001 C CNN
+	1    12800 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R3
+U 1 1 A8DE478E
+P 12800 5000
+AR Path="/A8DE478E" Ref="R3"  Part="1" 
+AR Path="/5FABF5AF/A8DE478E" Ref="R3"  Part="1" 
+F 0 "R3" H 12475 4909 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 4920 59  0000 L BNN
+F 2 "display72:R0603" H 12800 5000 50  0001 C CNN
+F 3 "" H 12800 5000 50  0001 C CNN
+	1    12800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R14
+U 1 1 5A60507E
+P 12800 5100
+AR Path="/5A60507E" Ref="R14"  Part="1" 
+AR Path="/5FABF5AF/5A60507E" Ref="R14"  Part="1" 
+F 0 "R14" H 12475 5009 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 5020 59  0000 L BNN
+F 2 "display72:R0603" H 12800 5100 50  0001 C CNN
+F 3 "" H 12800 5100 50  0001 C CNN
+	1    12800 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R15
+U 1 1 EE752BBC
+P 12800 5200
+AR Path="/EE752BBC" Ref="R15"  Part="1" 
+AR Path="/5FABF5AF/EE752BBC" Ref="R15"  Part="1" 
+F 0 "R15" H 12475 5109 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 5120 59  0000 L BNN
+F 2 "display72:R0603" H 12800 5200 50  0001 C CNN
+F 3 "" H 12800 5200 50  0001 C CNN
+	1    12800 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R16
+U 1 1 9505D4E4
+P 12800 5300
+AR Path="/9505D4E4" Ref="R16"  Part="1" 
+AR Path="/5FABF5AF/9505D4E4" Ref="R16"  Part="1" 
+F 0 "R16" H 12475 5209 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 5220 59  0000 L BNN
+F 2 "display72:R0603" H 12800 5300 50  0001 C CNN
+F 3 "" H 12800 5300 50  0001 C CNN
+	1    12800 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:R-EU_R0603 R17
+U 1 1 AF4A11E7
+P 12800 5400
+AR Path="/AF4A11E7" Ref="R17"  Part="1" 
+AR Path="/5FABF5AF/AF4A11E7" Ref="R17"  Part="1" 
+F 0 "R17" H 12475 5309 59  0000 L BNN
+F 1 "1kOhm-Ferrit" H 12900 5320 59  0000 L BNN
+F 2 "display72:R0603" H 12800 5400 50  0001 C CNN
+F 3 "" H 12800 5400 50  0001 C CNN
+	1    12800 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C99
+U 1 1 FC3E0017
+P 12500 5700
+AR Path="/FC3E0017" Ref="C99"  Part="1" 
+AR Path="/5FABF5AF/FC3E0017" Ref="C99"  Part="1" 
+F 0 "C99" V 12515 5878 59  0000 R TNN
+F 1 "100n" V 12515 5628 59  0000 R TNN
+F 2 "display72:C0603" H 12500 5700 50  0001 C CNN
+F 3 "" H 12500 5700 50  0001 C CNN
+	1    12500 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C100
+U 1 1 78FB91F5
+P 12300 5700
+AR Path="/78FB91F5" Ref="C100"  Part="1" 
+AR Path="/5FABF5AF/78FB91F5" Ref="C100"  Part="1" 
+F 0 "C100" V 12315 5878 59  0000 R TNN
+F 1 "100n" V 12315 5628 59  0000 R TNN
+F 2 "display72:C0603" H 12300 5700 50  0001 C CNN
+F 3 "" H 12300 5700 50  0001 C CNN
+	1    12300 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C101
+U 1 1 907DB711
+P 12100 5700
+AR Path="/907DB711" Ref="C101"  Part="1" 
+AR Path="/5FABF5AF/907DB711" Ref="C101"  Part="1" 
+F 0 "C101" V 12115 5878 59  0000 R TNN
+F 1 "100n" V 12115 5628 59  0000 R TNN
+F 2 "display72:C0603" H 12100 5700 50  0001 C CNN
+F 3 "" H 12100 5700 50  0001 C CNN
+	1    12100 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C102
+U 1 1 5504E658
+P 11900 5700
+AR Path="/5504E658" Ref="C102"  Part="1" 
+AR Path="/5FABF5AF/5504E658" Ref="C102"  Part="1" 
+F 0 "C102" V 11915 5878 59  0000 R TNN
+F 1 "100n" V 11915 5628 59  0000 R TNN
+F 2 "display72:C0603" H 11900 5700 50  0001 C CNN
+F 3 "" H 11900 5700 50  0001 C CNN
+	1    11900 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C103
+U 1 1 CD96CB1D
+P 11700 5700
+AR Path="/CD96CB1D" Ref="C103"  Part="1" 
+AR Path="/5FABF5AF/CD96CB1D" Ref="C103"  Part="1" 
+F 0 "C103" V 11715 5878 59  0000 R TNN
+F 1 "100n" V 11715 5628 59  0000 R TNN
+F 2 "display72:C0603" H 11700 5700 50  0001 C CNN
+F 3 "" H 11700 5700 50  0001 C CNN
+	1    11700 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C104
+U 1 1 148A259C
+P 11500 5700
+AR Path="/148A259C" Ref="C104"  Part="1" 
+AR Path="/5FABF5AF/148A259C" Ref="C104"  Part="1" 
+F 0 "C104" V 11515 5878 59  0000 R TNN
+F 1 "100n" V 11515 5628 59  0000 R TNN
+F 2 "display72:C0603" H 11500 5700 50  0001 C CNN
+F 3 "" H 11500 5700 50  0001 C CNN
+	1    11500 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND159
+U 1 1 270BE4B5
+P 11500 6100
+AR Path="/270BE4B5" Ref="#AGND159"  Part="1" 
+AR Path="/5FABF5AF/270BE4B5" Ref="#AGND0159"  Part="1" 
+F 0 "#AGND0159" H 11500 6100 50  0001 C CNN
+F 1 " " V 11400 5900 59  0000 L BNN
+F 2 "" H 11500 6100 50  0001 C CNN
+F 3 "" H 11500 6100 50  0001 C CNN
+	1    11500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND160
+U 1 1 24921145
+P 11700 6100
+AR Path="/24921145" Ref="#AGND160"  Part="1" 
+AR Path="/5FABF5AF/24921145" Ref="#AGND0160"  Part="1" 
+F 0 "#AGND0160" H 11700 6100 50  0001 C CNN
+F 1 " " V 11600 5900 59  0000 L BNN
+F 2 "" H 11700 6100 50  0001 C CNN
+F 3 "" H 11700 6100 50  0001 C CNN
+	1    11700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND161
+U 1 1 486AD4F4
+P 11900 6100
+AR Path="/486AD4F4" Ref="#AGND161"  Part="1" 
+AR Path="/5FABF5AF/486AD4F4" Ref="#AGND0161"  Part="1" 
+F 0 "#AGND0161" H 11900 6100 50  0001 C CNN
+F 1 " " V 11800 5900 59  0000 L BNN
+F 2 "" H 11900 6100 50  0001 C CNN
+F 3 "" H 11900 6100 50  0001 C CNN
+	1    11900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND162
+U 1 1 51063562
+P 12100 6100
+AR Path="/51063562" Ref="#AGND162"  Part="1" 
+AR Path="/5FABF5AF/51063562" Ref="#AGND0162"  Part="1" 
+F 0 "#AGND0162" H 12100 6100 50  0001 C CNN
+F 1 " " V 12000 5900 59  0000 L BNN
+F 2 "" H 12100 6100 50  0001 C CNN
+F 3 "" H 12100 6100 50  0001 C CNN
+	1    12100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND163
+U 1 1 CFCA6F6D
+P 12300 6100
+AR Path="/CFCA6F6D" Ref="#AGND163"  Part="1" 
+AR Path="/5FABF5AF/CFCA6F6D" Ref="#AGND0163"  Part="1" 
+F 0 "#AGND0163" H 12300 6100 50  0001 C CNN
+F 1 " " V 12200 5900 59  0000 L BNN
+F 2 "" H 12300 6100 50  0001 C CNN
+F 3 "" H 12300 6100 50  0001 C CNN
+	1    12300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND164
+U 1 1 71CBBDFB
+P 12500 6100
+AR Path="/71CBBDFB" Ref="#AGND164"  Part="1" 
+AR Path="/5FABF5AF/71CBBDFB" Ref="#AGND0164"  Part="1" 
+F 0 "#AGND0164" H 12500 6100 50  0001 C CNN
+F 1 " " V 12400 5900 59  0000 L BNN
+F 2 "" H 12500 6100 50  0001 C CNN
+F 3 "" H 12500 6100 50  0001 C CNN
+	1    12500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:C-EUC0603 C105
+U 1 1 1C48C91D
+P 11300 5700
+AR Path="/1C48C91D" Ref="C105"  Part="1" 
+AR Path="/5FABF5AF/1C48C91D" Ref="C105"  Part="1" 
+F 0 "C105" V 11315 5878 59  0000 R TNN
+F 1 "100n" V 11315 5628 59  0000 R TNN
+F 2 "display72:C0603" H 11300 5700 50  0001 C CNN
+F 3 "" H 11300 5700 50  0001 C CNN
+	1    11300 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:AGND #AGND165
+U 1 1 0A1B60E8
+P 11300 6100
+AR Path="/0A1B60E8" Ref="#AGND165"  Part="1" 
+AR Path="/5FABF5AF/0A1B60E8" Ref="#AGND0165"  Part="1" 
+F 0 "#AGND0165" H 11300 6100 50  0001 C CNN
+F 1 " " V 11200 5900 59  0000 L BNN
+F 2 "" H 11300 6100 50  0001 C CNN
+F 3 "" H 11300 6100 50  0001 C CNN
+	1    11300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:PINHD-2X4_90 JP7
+U 1 1 01724293
+P 1700 2700
+AR Path="/01724293" Ref="JP7"  Part="1" 
+AR Path="/5FABF5AF/01724293" Ref="JP7"  Part="1" 
+F 0 "JP7" H 1450 3025 59  0000 L BNN
+F 1 "TRX Detector" H 1450 2400 59  0000 L BNN
+F 2 "display72:2X04_90" H 1700 2700 50  0001 C CNN
+F 3 "" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L display72-eagle-import:PINHD-2X6_90 JP8
+U 1 1 358D80E9
+P 1700 4000
+AR Path="/358D80E9" Ref="JP8"  Part="1" 
+AR Path="/5FABF5AF/358D80E9" Ref="JP8"  Part="1" 
+F 0 "JP8" H 1450 4325 59  0000 L BNN
+F 1 "Band Relais" H 1450 3500 59  0000 L BNN
+F 2 "display72:2X06_90" H 1700 4000 50  0001 C CNN
+F 3 "" H 1700 4000 50  0001 C CNN
+	1    1700 4000
+	-1   0    0    -1  
+$EndComp
+Text Notes 900  3825 0    59   ~ 0
+80m
+Text Notes 700  3925 0    59   ~ 0
+60+40m
+Text Notes 700  4025 0    59   ~ 0
+30+20m
+Text Notes 700  4125 0    59   ~ 0
+17+15m
+Text Notes 700  4225 0    59   ~ 0
+10+12m
+Text Notes 950  4325 0    59   ~ 0
+6m
+Text Notes 1775 8100 0    127  ~ 25
+Power AMP Controller\n7" Version 2\nDJ0ABR\nDig In/Out
+Text Notes 14500 5400 0    59   ~ 0
+PS OFF\nANTsel-1\nANTsel-2\nPTT out\nPTT in\nFAN\nPS ON
+$EndSCHEMATC
